@@ -3,6 +3,8 @@ The official implementation of Dynamic Graph Learning-Neural Network for Multiva
 
 The code will be released soon
 
-Dataset
+Raw Dataset
+
 Traffic data  https://github.com/LeiBAI/AGCRN
+
 Time series data https://github.com/laiguokun/multivariate-time-series-data
