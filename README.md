@@ -3,6 +3,8 @@ The official implementation of Dynamic graph structure learning for multivariate
 
 The initial version was Dynamic Graph Learning-Neural Network for Multivariate Time Series Modeling ([arxiv](https://arxiv.org/abs/2112.03273)).
 
+![](https://github.com/ZhuoLinLi-shu/SDGL/blob/main/figs/model.png)
+
 
 Raw Dataset
 
