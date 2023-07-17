@@ -16,12 +16,12 @@ Traffic data  https://github.com/LeiBAI/AGCRN
 
 Time series data https://github.com/laiguokun/multivariate-time-series-data
 
-```
+
+
 ## Train Commands
 
-```
 python train_pems.py --gcn_bool --addaptadj  --dataset
-```
+
 
 ## Citing
 
