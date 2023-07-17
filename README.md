@@ -22,6 +22,10 @@ Time series data https://github.com/laiguokun/multivariate-time-series-data
 
 python train_pems.py --gcn_bool --addaptadj  --dataset
 
+## Experimental result
+I have placed the prediction results of this model on the [website](https://github.com/ZhuoLinLi-shu/SDGL/releases/tag/v1.0)
+
+
 
 ## Citing
 
