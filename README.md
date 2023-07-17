@@ -5,9 +5,13 @@ The initial version was Dynamic Graph Learning-Neural Network for Multivariate T
 
 ![](https://github.com/ZhuoLinLi-shu/SDGL/blob/main/figs/model.png)
 
-
+## Requirements
+- python 3
+- see `requirements.txt`
+  
 Raw Dataset
 
 Traffic data  https://github.com/LeiBAI/AGCRN
 
 Time series data https://github.com/laiguokun/multivariate-time-series-data
+
