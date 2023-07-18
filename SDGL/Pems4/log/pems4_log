@@ -1,0 +1,1019 @@
+Namespace(addaptadj=True, batch_size=64, column_wise=False, dataset='PEMSD4', device='cuda:0', dilation_exponential_=1, dropout=0.3, dropout_ingc=0.3, embed_dim=10, epochs=200, eta=1, expid=1, gamma=0.0001, gcn_bool=True, horizon=12, in_dim=1, lag=12, layers=3, learning_rate=0.001, log_file='./log/pems4_log', moco=0.99, nhid=32, num_nodes=307, order=1, print_every=50, rate=1, save='./model/pems4', seed=1689602685, seq_length=12, test_ratio=0.2, val_ratio=0.2, weight_decay=0.0)
+The model parameter number is: 997684
+Iter: 000, 3017.0789 :Train Loss, 2.0927:Train MAPE, 159.5493: Train RMSE
+Iter: 050, 667.2309 :Train Loss, 0.2590:Train MAPE, 42.0935: Train RMSE
+Iter: 100, 241.6540 :Train Loss, 0.2849:Train MAPE, 41.7540: Train RMSE
+Iter: 150, 77.3795 :Train Loss, 0.1954:Train MAPE, 36.5659: Train RMSE
+Epoch: 001, Train Loss: 731.1509, Train MAPE: 0.2941, Train RMSE: 44.9137, Valid Loss: 24.9451, Valid MAPE: 0.1751, Valid RMSE: 37.3093, Training Time: 34.8262/epoch
+Iter: 000, 73.5506 :Train Loss, 0.1818:Train MAPE, 41.1356: Train RMSE
+Iter: 050, 32.2787 :Train Loss, 0.2947:Train MAPE, 36.7508: Train RMSE
+Iter: 100, 25.4934 :Train Loss, 0.1815:Train MAPE, 37.2819: Train RMSE
+Iter: 150, 23.0631 :Train Loss, 0.1898:Train MAPE, 36.7650: Train RMSE
+Epoch: 002, Train Loss: 32.2999, Train MAPE: 0.2027, Train RMSE: 36.6538, Valid Loss: 25.3778, Valid MAPE: 0.2619, Valid RMSE: 36.3598, Training Time: 34.8198/epoch
+Iter: 000, 23.8865 :Train Loss, 0.1740:Train MAPE, 37.1850: Train RMSE
+Iter: 050, 22.1905 :Train Loss, 0.1809:Train MAPE, 35.7686: Train RMSE
+Iter: 100, 21.8611 :Train Loss, 0.1702:Train MAPE, 35.5615: Train RMSE
+Iter: 150, 20.3999 :Train Loss, 0.1807:Train MAPE, 33.3783: Train RMSE
+Epoch: 003, Train Loss: 22.0575, Train MAPE: 0.1793, Train RMSE: 35.0706, Valid Loss: 23.5910, Valid MAPE: 0.2192, Valid RMSE: 34.6712, Training Time: 35.0218/epoch
+Iter: 000, 21.2036 :Train Loss, 0.1717:Train MAPE, 34.2479: Train RMSE
+Iter: 050, 20.0922 :Train Loss, 0.1574:Train MAPE, 32.4011: Train RMSE
+Iter: 100, 21.8044 :Train Loss, 0.2038:Train MAPE, 34.4136: Train RMSE
+Iter: 150, 21.4560 :Train Loss, 0.1661:Train MAPE, 34.6898: Train RMSE
+Epoch: 004, Train Loss: 21.4152, Train MAPE: 0.1707, Train RMSE: 34.3567, Valid Loss: 23.7838, Valid MAPE: 0.2486, Valid RMSE: 34.3926, Training Time: 35.0665/epoch
+Iter: 000, 19.1583 :Train Loss, 0.1909:Train MAPE, 30.8271: Train RMSE
+Iter: 050, 21.1290 :Train Loss, 0.1850:Train MAPE, 33.3457: Train RMSE
+Iter: 100, 19.1182 :Train Loss, 0.1761:Train MAPE, 31.4664: Train RMSE
+Iter: 150, 21.2983 :Train Loss, 0.1836:Train MAPE, 34.5202: Train RMSE
+Epoch: 005, Train Loss: 20.9170, Train MAPE: 0.1664, Train RMSE: 33.6820, Valid Loss: 23.1678, Valid MAPE: 0.1977, Valid RMSE: 34.2538, Training Time: 35.1060/epoch
+Iter: 000, 20.0373 :Train Loss, 0.1505:Train MAPE, 32.8187: Train RMSE
+Iter: 050, 19.5845 :Train Loss, 0.1626:Train MAPE, 32.1913: Train RMSE
+Iter: 100, 21.6341 :Train Loss, 0.1464:Train MAPE, 34.1464: Train RMSE
+Iter: 150, 21.5871 :Train Loss, 0.1480:Train MAPE, 36.5015: Train RMSE
+Epoch: 006, Train Loss: 20.4809, Train MAPE: 0.1613, Train RMSE: 33.1449, Valid Loss: 22.4213, Valid MAPE: 0.2280, Valid RMSE: 32.8275, Training Time: 35.5334/epoch
+Iter: 000, 21.5454 :Train Loss, 0.1546:Train MAPE, 34.0715: Train RMSE
+Iter: 050, 20.0273 :Train Loss, 0.1785:Train MAPE, 32.3098: Train RMSE
+Iter: 100, 23.4882 :Train Loss, 0.1329:Train MAPE, 36.4828: Train RMSE
+Iter: 150, 18.5142 :Train Loss, 0.1688:Train MAPE, 30.2604: Train RMSE
+Epoch: 007, Train Loss: 20.3194, Train MAPE: 0.1611, Train RMSE: 32.8906, Valid Loss: 21.6506, Valid MAPE: 0.1814, Valid RMSE: 32.3636, Training Time: 34.9153/epoch
+Iter: 000, 19.2125 :Train Loss, 0.1631:Train MAPE, 31.9088: Train RMSE
+Iter: 050, 21.4532 :Train Loss, 0.1454:Train MAPE, 34.0779: Train RMSE
+Iter: 100, 19.3322 :Train Loss, 0.1516:Train MAPE, 31.5010: Train RMSE
+Iter: 150, 19.7494 :Train Loss, 0.1512:Train MAPE, 32.1053: Train RMSE
+Epoch: 008, Train Loss: 19.9032, Train MAPE: 0.1570, Train RMSE: 32.3850, Valid Loss: 22.8102, Valid MAPE: 0.2378, Valid RMSE: 33.0427, Training Time: 36.3660/epoch
+Iter: 000, 19.2088 :Train Loss, 0.1730:Train MAPE, 31.5695: Train RMSE
+Iter: 050, 19.8420 :Train Loss, 0.1463:Train MAPE, 31.5545: Train RMSE
+Iter: 100, 17.0137 :Train Loss, 0.1909:Train MAPE, 29.1257: Train RMSE
+Iter: 150, 18.8835 :Train Loss, 0.1678:Train MAPE, 31.7564: Train RMSE
+Epoch: 009, Train Loss: 19.8039, Train MAPE: 0.1553, Train RMSE: 32.2641, Valid Loss: 21.4121, Valid MAPE: 0.1737, Valid RMSE: 32.1161, Training Time: 36.6844/epoch
+Iter: 000, 18.7458 :Train Loss, 0.1605:Train MAPE, 30.8019: Train RMSE
+Iter: 050, 19.8392 :Train Loss, 0.1660:Train MAPE, 32.7541: Train RMSE
+Iter: 100, 19.1107 :Train Loss, 0.1770:Train MAPE, 31.2839: Train RMSE
+Iter: 150, 20.0140 :Train Loss, 0.1580:Train MAPE, 32.3642: Train RMSE
+Epoch: 010, Train Loss: 19.6174, Train MAPE: 0.1513, Train RMSE: 32.0861, Valid Loss: 21.1591, Valid MAPE: 0.1922, Valid RMSE: 31.6448, Training Time: 36.1492/epoch
+Iter: 000, 19.2440 :Train Loss, 0.1617:Train MAPE, 32.3469: Train RMSE
+Iter: 050, 19.9065 :Train Loss, 0.1577:Train MAPE, 33.3782: Train RMSE
+Iter: 100, 16.7070 :Train Loss, 0.1977:Train MAPE, 28.1875: Train RMSE
+Iter: 150, 20.6297 :Train Loss, 0.1376:Train MAPE, 33.8141: Train RMSE
+Epoch: 011, Train Loss: 19.4414, Train MAPE: 0.1506, Train RMSE: 31.8274, Valid Loss: 20.8670, Valid MAPE: 0.1813, Valid RMSE: 31.3822, Training Time: 34.6733/epoch
+Iter: 000, 17.0182 :Train Loss, 0.1542:Train MAPE, 28.2480: Train RMSE
+Iter: 050, 20.0854 :Train Loss, 0.1611:Train MAPE, 33.1286: Train RMSE
+Iter: 100, 17.4827 :Train Loss, 0.1436:Train MAPE, 28.6428: Train RMSE
+Iter: 150, 19.0152 :Train Loss, 0.1514:Train MAPE, 31.4657: Train RMSE
+Epoch: 012, Train Loss: 19.2857, Train MAPE: 0.1501, Train RMSE: 31.6014, Valid Loss: 22.0258, Valid MAPE: 0.2057, Valid RMSE: 32.4215, Training Time: 35.3314/epoch
+Iter: 000, 16.9987 :Train Loss, 0.1747:Train MAPE, 29.1702: Train RMSE
+Iter: 050, 18.0933 :Train Loss, 0.1499:Train MAPE, 29.8241: Train RMSE
+Iter: 100, 17.7673 :Train Loss, 0.1506:Train MAPE, 29.6541: Train RMSE
+Iter: 150, 18.4678 :Train Loss, 0.1451:Train MAPE, 30.4214: Train RMSE
+Epoch: 013, Train Loss: 19.1559, Train MAPE: 0.1479, Train RMSE: 31.4473, Valid Loss: 20.8479, Valid MAPE: 0.1896, Valid RMSE: 31.2414, Training Time: 34.5330/epoch
+Iter: 000, 17.8588 :Train Loss, 0.1523:Train MAPE, 29.7416: Train RMSE
+Iter: 050, 18.5670 :Train Loss, 0.1730:Train MAPE, 30.4726: Train RMSE
+Iter: 100, 17.9021 :Train Loss, 0.1502:Train MAPE, 29.7467: Train RMSE
+Iter: 150, 20.0976 :Train Loss, 0.1435:Train MAPE, 33.2894: Train RMSE
+Epoch: 014, Train Loss: 19.0345, Train MAPE: 0.1469, Train RMSE: 31.3112, Valid Loss: 20.8234, Valid MAPE: 0.1574, Valid RMSE: 31.5441, Training Time: 35.1981/epoch
+Iter: 000, 18.1299 :Train Loss, 0.1453:Train MAPE, 29.4186: Train RMSE
+Iter: 050, 18.7494 :Train Loss, 0.1618:Train MAPE, 30.4355: Train RMSE
+Iter: 100, 18.9786 :Train Loss, 0.1426:Train MAPE, 30.9223: Train RMSE
+Iter: 150, 18.8258 :Train Loss, 0.1449:Train MAPE, 31.3149: Train RMSE
+Epoch: 015, Train Loss: 18.9364, Train MAPE: 0.1457, Train RMSE: 31.1864, Valid Loss: 21.4471, Valid MAPE: 0.1920, Valid RMSE: 31.8308, Training Time: 34.8296/epoch
+Iter: 000, 20.0187 :Train Loss, 0.1393:Train MAPE, 32.8275: Train RMSE
+Iter: 050, 17.5933 :Train Loss, 0.1636:Train MAPE, 29.5404: Train RMSE
+Iter: 100, 18.1589 :Train Loss, 0.1483:Train MAPE, 30.9871: Train RMSE
+Iter: 150, 17.8576 :Train Loss, 0.1452:Train MAPE, 29.7054: Train RMSE
+Epoch: 016, Train Loss: 18.8410, Train MAPE: 0.1452, Train RMSE: 31.0596, Valid Loss: 20.4714, Valid MAPE: 0.1516, Valid RMSE: 31.1427, Training Time: 35.0128/epoch
+Iter: 000, 18.8722 :Train Loss, 0.1427:Train MAPE, 30.5632: Train RMSE
+Iter: 050, 18.6720 :Train Loss, 0.1409:Train MAPE, 30.5655: Train RMSE
+Iter: 100, 16.4469 :Train Loss, 0.1625:Train MAPE, 28.3053: Train RMSE
+Iter: 150, 18.5245 :Train Loss, 0.1396:Train MAPE, 30.6419: Train RMSE
+Epoch: 017, Train Loss: 18.8145, Train MAPE: 0.1445, Train RMSE: 31.0267, Valid Loss: 21.0440, Valid MAPE: 0.1829, Valid RMSE: 31.4912, Training Time: 34.8008/epoch
+Iter: 000, 19.1232 :Train Loss, 0.1400:Train MAPE, 31.3585: Train RMSE
+Iter: 050, 19.2285 :Train Loss, 0.1418:Train MAPE, 31.6405: Train RMSE
+Iter: 100, 19.5620 :Train Loss, 0.1357:Train MAPE, 31.3069: Train RMSE
+Iter: 150, 18.2114 :Train Loss, 0.1411:Train MAPE, 30.0406: Train RMSE
+Epoch: 018, Train Loss: 18.7812, Train MAPE: 0.1453, Train RMSE: 30.9657, Valid Loss: 21.2231, Valid MAPE: 0.2019, Valid RMSE: 31.3920, Training Time: 34.3152/epoch
+Iter: 000, 18.5010 :Train Loss, 0.1497:Train MAPE, 29.5114: Train RMSE
+Iter: 050, 17.9568 :Train Loss, 0.1417:Train MAPE, 29.5148: Train RMSE
+Iter: 100, 16.8861 :Train Loss, 0.1563:Train MAPE, 29.0342: Train RMSE
+Iter: 150, 18.7754 :Train Loss, 0.1346:Train MAPE, 30.9530: Train RMSE
+Epoch: 019, Train Loss: 18.6422, Train MAPE: 0.1430, Train RMSE: 30.8195, Valid Loss: 20.1465, Valid MAPE: 0.1370, Valid RMSE: 30.9449, Training Time: 34.7936/epoch
+Iter: 000, 16.7718 :Train Loss, 0.1795:Train MAPE, 28.4206: Train RMSE
+Iter: 050, 19.7414 :Train Loss, 0.1324:Train MAPE, 31.8627: Train RMSE
+Iter: 100, 18.4523 :Train Loss, 0.1339:Train MAPE, 29.9932: Train RMSE
+Iter: 150, 17.2168 :Train Loss, 0.1383:Train MAPE, 28.3372: Train RMSE
+Epoch: 020, Train Loss: 18.6434, Train MAPE: 0.1435, Train RMSE: 30.7942, Valid Loss: 20.1152, Valid MAPE: 0.1612, Valid RMSE: 30.7324, Training Time: 34.4289/epoch
+Iter: 000, 18.5571 :Train Loss, 0.1361:Train MAPE, 31.3136: Train RMSE
+Iter: 050, 18.1122 :Train Loss, 0.1500:Train MAPE, 30.4653: Train RMSE
+Iter: 100, 18.6688 :Train Loss, 0.1334:Train MAPE, 30.5602: Train RMSE
+Iter: 150, 18.2997 :Train Loss, 0.1390:Train MAPE, 30.2364: Train RMSE
+Epoch: 021, Train Loss: 18.5719, Train MAPE: 0.1412, Train RMSE: 30.7262, Valid Loss: 20.4975, Valid MAPE: 0.1648, Valid RMSE: 31.0704, Training Time: 34.9036/epoch
+Iter: 000, 19.4614 :Train Loss, 0.1283:Train MAPE, 31.8640: Train RMSE
+Iter: 050, 19.1656 :Train Loss, 0.1438:Train MAPE, 31.0546: Train RMSE
+Iter: 100, 16.9226 :Train Loss, 0.1746:Train MAPE, 29.1345: Train RMSE
+Iter: 150, 18.7550 :Train Loss, 0.1365:Train MAPE, 31.6888: Train RMSE
+Epoch: 022, Train Loss: 18.5686, Train MAPE: 0.1425, Train RMSE: 30.6987, Valid Loss: 20.1515, Valid MAPE: 0.1525, Valid RMSE: 30.7591, Training Time: 34.9774/epoch
+Iter: 000, 18.4402 :Train Loss, 0.1366:Train MAPE, 30.5366: Train RMSE
+Iter: 050, 18.0596 :Train Loss, 0.1574:Train MAPE, 29.6611: Train RMSE
+Iter: 100, 17.7776 :Train Loss, 0.1402:Train MAPE, 29.4125: Train RMSE
+Iter: 150, 18.9043 :Train Loss, 0.1412:Train MAPE, 30.8870: Train RMSE
+Epoch: 023, Train Loss: 18.4152, Train MAPE: 0.1410, Train RMSE: 30.5221, Valid Loss: 20.4046, Valid MAPE: 0.1587, Valid RMSE: 30.9377, Training Time: 34.9079/epoch
+Iter: 000, 19.2626 :Train Loss, 0.1419:Train MAPE, 32.5006: Train RMSE
+Iter: 050, 19.3933 :Train Loss, 0.1331:Train MAPE, 31.9563: Train RMSE
+Iter: 100, 18.8667 :Train Loss, 0.1371:Train MAPE, 30.9361: Train RMSE
+Iter: 150, 17.0745 :Train Loss, 0.1478:Train MAPE, 28.6459: Train RMSE
+Epoch: 024, Train Loss: 18.3548, Train MAPE: 0.1408, Train RMSE: 30.4192, Valid Loss: 19.9285, Valid MAPE: 0.1460, Valid RMSE: 30.5663, Training Time: 34.6995/epoch
+Iter: 000, 18.5447 :Train Loss, 0.1287:Train MAPE, 30.6731: Train RMSE
+Iter: 050, 17.3358 :Train Loss, 0.1537:Train MAPE, 29.5044: Train RMSE
+Iter: 100, 17.6781 :Train Loss, 0.1465:Train MAPE, 30.1402: Train RMSE
+Iter: 150, 18.2608 :Train Loss, 0.1340:Train MAPE, 30.1225: Train RMSE
+Epoch: 025, Train Loss: 18.3505, Train MAPE: 0.1400, Train RMSE: 30.4437, Valid Loss: 20.2069, Valid MAPE: 0.1746, Valid RMSE: 30.6520, Training Time: 35.8771/epoch
+Iter: 000, 17.4208 :Train Loss, 0.1622:Train MAPE, 30.1071: Train RMSE
+Iter: 050, 18.6237 :Train Loss, 0.1302:Train MAPE, 31.1151: Train RMSE
+Iter: 100, 18.8345 :Train Loss, 0.1526:Train MAPE, 31.0969: Train RMSE
+Iter: 150, 17.5148 :Train Loss, 0.1420:Train MAPE, 29.2710: Train RMSE
+Epoch: 026, Train Loss: 18.3489, Train MAPE: 0.1418, Train RMSE: 30.3896, Valid Loss: 19.6194, Valid MAPE: 0.1439, Valid RMSE: 30.2951, Training Time: 35.2345/epoch
+Iter: 000, 18.8984 :Train Loss, 0.1262:Train MAPE, 30.8802: Train RMSE
+Iter: 050, 17.8619 :Train Loss, 0.1780:Train MAPE, 29.5903: Train RMSE
+Iter: 100, 19.7530 :Train Loss, 0.1420:Train MAPE, 32.8412: Train RMSE
+Iter: 150, 16.7357 :Train Loss, 0.1542:Train MAPE, 29.0722: Train RMSE
+Epoch: 027, Train Loss: 18.2535, Train MAPE: 0.1390, Train RMSE: 30.3107, Valid Loss: 19.8853, Valid MAPE: 0.1613, Valid RMSE: 30.4386, Training Time: 36.8296/epoch
+Iter: 000, 18.3857 :Train Loss, 0.1395:Train MAPE, 30.5021: Train RMSE
+Iter: 050, 18.1906 :Train Loss, 0.1347:Train MAPE, 30.1354: Train RMSE
+Iter: 100, 18.4424 :Train Loss, 0.1265:Train MAPE, 30.2022: Train RMSE
+Iter: 150, 19.9298 :Train Loss, 0.1332:Train MAPE, 32.6394: Train RMSE
+Epoch: 028, Train Loss: 18.2080, Train MAPE: 0.1389, Train RMSE: 30.2515, Valid Loss: 19.9696, Valid MAPE: 0.1621, Valid RMSE: 30.4904, Training Time: 35.6040/epoch
+Iter: 000, 17.6256 :Train Loss, 0.1420:Train MAPE, 29.6126: Train RMSE
+Iter: 050, 16.4624 :Train Loss, 0.1524:Train MAPE, 28.0221: Train RMSE
+Iter: 100, 19.0928 :Train Loss, 0.1303:Train MAPE, 31.8415: Train RMSE
+Iter: 150, 19.9421 :Train Loss, 0.1384:Train MAPE, 33.4526: Train RMSE
+Epoch: 029, Train Loss: 18.2467, Train MAPE: 0.1418, Train RMSE: 30.2340, Valid Loss: 19.8539, Valid MAPE: 0.1724, Valid RMSE: 30.3185, Training Time: 35.6102/epoch
+Iter: 000, 18.0444 :Train Loss, 0.1379:Train MAPE, 29.6247: Train RMSE
+Iter: 050, 19.0920 :Train Loss, 0.1282:Train MAPE, 30.9567: Train RMSE
+Iter: 100, 18.0113 :Train Loss, 0.1443:Train MAPE, 29.7028: Train RMSE
+Iter: 150, 18.7626 :Train Loss, 0.1545:Train MAPE, 30.7976: Train RMSE
+Epoch: 030, Train Loss: 18.1530, Train MAPE: 0.1396, Train RMSE: 30.1563, Valid Loss: 20.0683, Valid MAPE: 0.1793, Valid RMSE: 30.4577, Training Time: 34.6405/epoch
+Iter: 000, 17.3389 :Train Loss, 0.1779:Train MAPE, 28.8252: Train RMSE
+Iter: 050, 18.2000 :Train Loss, 0.1353:Train MAPE, 30.5113: Train RMSE
+Iter: 100, 16.5496 :Train Loss, 0.1466:Train MAPE, 28.3492: Train RMSE
+Iter: 150, 17.8187 :Train Loss, 0.1427:Train MAPE, 30.9306: Train RMSE
+Epoch: 031, Train Loss: 18.1600, Train MAPE: 0.1390, Train RMSE: 30.1856, Valid Loss: 19.5552, Valid MAPE: 0.1324, Valid RMSE: 30.2885, Training Time: 36.2691/epoch
+Iter: 000, 18.3218 :Train Loss, 0.1426:Train MAPE, 31.2875: Train RMSE
+Iter: 050, 18.9662 :Train Loss, 0.1551:Train MAPE, 30.2535: Train RMSE
+Iter: 100, 19.0207 :Train Loss, 0.1287:Train MAPE, 31.4336: Train RMSE
+Iter: 150, 19.4432 :Train Loss, 0.1450:Train MAPE, 31.7046: Train RMSE
+Epoch: 032, Train Loss: 18.1028, Train MAPE: 0.1416, Train RMSE: 30.0259, Valid Loss: 19.7181, Valid MAPE: 0.1274, Valid RMSE: 30.4956, Training Time: 34.8572/epoch
+Iter: 000, 19.2913 :Train Loss, 0.1472:Train MAPE, 31.4462: Train RMSE
+Iter: 050, 18.3489 :Train Loss, 0.1287:Train MAPE, 30.5576: Train RMSE
+Iter: 100, 18.0666 :Train Loss, 0.1410:Train MAPE, 29.6177: Train RMSE
+Iter: 150, 18.0628 :Train Loss, 0.1299:Train MAPE, 29.6540: Train RMSE
+Epoch: 033, Train Loss: 18.0488, Train MAPE: 0.1387, Train RMSE: 30.0154, Valid Loss: 19.3874, Valid MAPE: 0.1312, Valid RMSE: 30.1109, Training Time: 34.8105/epoch
+Iter: 000, 19.7778 :Train Loss, 0.1214:Train MAPE, 32.1997: Train RMSE
+Iter: 050, 17.2234 :Train Loss, 0.1447:Train MAPE, 28.7700: Train RMSE
+Iter: 100, 16.4560 :Train Loss, 0.1660:Train MAPE, 27.5659: Train RMSE
+Iter: 150, 18.5909 :Train Loss, 0.1277:Train MAPE, 30.5726: Train RMSE
+Epoch: 034, Train Loss: 17.9550, Train MAPE: 0.1364, Train RMSE: 29.9456, Valid Loss: 19.5308, Valid MAPE: 0.1408, Valid RMSE: 30.1890, Training Time: 36.1676/epoch
+Iter: 000, 18.4188 :Train Loss, 0.1357:Train MAPE, 30.5746: Train RMSE
+Iter: 050, 16.1631 :Train Loss, 0.1391:Train MAPE, 27.3779: Train RMSE
+Iter: 100, 17.3952 :Train Loss, 0.1583:Train MAPE, 31.2098: Train RMSE
+Iter: 150, 16.6008 :Train Loss, 0.1365:Train MAPE, 27.5711: Train RMSE
+Epoch: 035, Train Loss: 17.9528, Train MAPE: 0.1360, Train RMSE: 29.9451, Valid Loss: 19.4852, Valid MAPE: 0.1388, Valid RMSE: 30.1308, Training Time: 34.7936/epoch
+Iter: 000, 16.1812 :Train Loss, 0.1529:Train MAPE, 27.3796: Train RMSE
+Iter: 050, 18.1765 :Train Loss, 0.1262:Train MAPE, 30.2759: Train RMSE
+Iter: 100, 18.4788 :Train Loss, 0.1281:Train MAPE, 30.4850: Train RMSE
+Iter: 150, 19.4366 :Train Loss, 0.1250:Train MAPE, 31.4788: Train RMSE
+Epoch: 036, Train Loss: 18.0285, Train MAPE: 0.1390, Train RMSE: 29.9971, Valid Loss: 19.7760, Valid MAPE: 0.1383, Valid RMSE: 30.4496, Training Time: 35.6718/epoch
+Iter: 000, 17.9909 :Train Loss, 0.1349:Train MAPE, 29.7944: Train RMSE
+Iter: 050, 16.5949 :Train Loss, 0.1374:Train MAPE, 27.9639: Train RMSE
+Iter: 100, 18.0060 :Train Loss, 0.1259:Train MAPE, 29.9484: Train RMSE
+Iter: 150, 17.8404 :Train Loss, 0.1365:Train MAPE, 29.9004: Train RMSE
+Epoch: 037, Train Loss: 17.8804, Train MAPE: 0.1356, Train RMSE: 29.8594, Valid Loss: 19.7613, Valid MAPE: 0.1457, Valid RMSE: 30.3565, Training Time: 34.9427/epoch
+Iter: 000, 17.8141 :Train Loss, 0.1358:Train MAPE, 29.5300: Train RMSE
+Iter: 050, 16.6243 :Train Loss, 0.1466:Train MAPE, 28.1303: Train RMSE
+Iter: 100, 17.5823 :Train Loss, 0.1362:Train MAPE, 29.3996: Train RMSE
+Iter: 150, 16.8105 :Train Loss, 0.1449:Train MAPE, 29.3766: Train RMSE
+Epoch: 038, Train Loss: 17.8654, Train MAPE: 0.1358, Train RMSE: 29.8303, Valid Loss: 19.4333, Valid MAPE: 0.1294, Valid RMSE: 30.2205, Training Time: 35.5349/epoch
+Iter: 000, 19.5157 :Train Loss, 0.1207:Train MAPE, 31.9905: Train RMSE
+Iter: 050, 17.2669 :Train Loss, 0.1394:Train MAPE, 29.3964: Train RMSE
+Iter: 100, 18.6635 :Train Loss, 0.1276:Train MAPE, 30.6609: Train RMSE
+Iter: 150, 16.4060 :Train Loss, 0.1391:Train MAPE, 27.5763: Train RMSE
+Epoch: 039, Train Loss: 17.8699, Train MAPE: 0.1368, Train RMSE: 29.8114, Valid Loss: 19.4268, Valid MAPE: 0.1260, Valid RMSE: 30.1273, Training Time: 35.7728/epoch
+Iter: 000, 19.2329 :Train Loss, 0.1258:Train MAPE, 31.5449: Train RMSE
+Iter: 050, 17.8324 :Train Loss, 0.1306:Train MAPE, 30.0506: Train RMSE
+Iter: 100, 19.0276 :Train Loss, 0.1340:Train MAPE, 32.6476: Train RMSE
+Iter: 150, 18.8103 :Train Loss, 0.1315:Train MAPE, 31.5027: Train RMSE
+Epoch: 040, Train Loss: 17.7791, Train MAPE: 0.1344, Train RMSE: 29.7484, Valid Loss: 19.3124, Valid MAPE: 0.1430, Valid RMSE: 30.0065, Training Time: 36.2753/epoch
+Iter: 000, 16.7640 :Train Loss, 0.1409:Train MAPE, 28.1472: Train RMSE
+Iter: 050, 18.8695 :Train Loss, 0.1286:Train MAPE, 31.0445: Train RMSE
+Iter: 100, 17.9333 :Train Loss, 0.1418:Train MAPE, 30.1800: Train RMSE
+Iter: 150, 17.1872 :Train Loss, 0.1463:Train MAPE, 29.0942: Train RMSE
+Epoch: 041, Train Loss: 17.7914, Train MAPE: 0.1357, Train RMSE: 29.7337, Valid Loss: 19.3831, Valid MAPE: 0.1421, Valid RMSE: 30.1029, Training Time: 34.8001/epoch
+Iter: 000, 19.5475 :Train Loss, 0.1315:Train MAPE, 33.1410: Train RMSE
+Iter: 050, 18.1909 :Train Loss, 0.1287:Train MAPE, 30.1949: Train RMSE
+Iter: 100, 17.3679 :Train Loss, 0.1440:Train MAPE, 28.6335: Train RMSE
+Iter: 150, 19.0716 :Train Loss, 0.1252:Train MAPE, 31.5332: Train RMSE
+Epoch: 042, Train Loss: 17.7655, Train MAPE: 0.1350, Train RMSE: 29.6980, Valid Loss: 19.1858, Valid MAPE: 0.1250, Valid RMSE: 29.9541, Training Time: 34.6194/epoch
+Iter: 000, 16.7867 :Train Loss, 0.1456:Train MAPE, 28.3690: Train RMSE
+Iter: 050, 17.8081 :Train Loss, 0.1366:Train MAPE, 29.7831: Train RMSE
+Iter: 100, 17.7330 :Train Loss, 0.1362:Train MAPE, 29.4954: Train RMSE
+Iter: 150, 18.0276 :Train Loss, 0.1342:Train MAPE, 30.0732: Train RMSE
+Epoch: 043, Train Loss: 17.7110, Train MAPE: 0.1359, Train RMSE: 29.6097, Valid Loss: 19.1401, Valid MAPE: 0.1244, Valid RMSE: 30.0205, Training Time: 35.3627/epoch
+Iter: 000, 17.2206 :Train Loss, 0.1436:Train MAPE, 29.1151: Train RMSE
+Iter: 050, 18.2746 :Train Loss, 0.1211:Train MAPE, 30.0201: Train RMSE
+Iter: 100, 17.8204 :Train Loss, 0.1339:Train MAPE, 29.8858: Train RMSE
+Iter: 150, 17.3088 :Train Loss, 0.1530:Train MAPE, 29.3415: Train RMSE
+Epoch: 044, Train Loss: 17.6773, Train MAPE: 0.1341, Train RMSE: 29.5964, Valid Loss: 19.2387, Valid MAPE: 0.1418, Valid RMSE: 29.8874, Training Time: 34.8057/epoch
+Iter: 000, 17.4387 :Train Loss, 0.1401:Train MAPE, 29.4922: Train RMSE
+Iter: 050, 17.3094 :Train Loss, 0.1337:Train MAPE, 28.5432: Train RMSE
+Iter: 100, 18.1980 :Train Loss, 0.1332:Train MAPE, 30.0063: Train RMSE
+Iter: 150, 15.6354 :Train Loss, 0.1504:Train MAPE, 27.2150: Train RMSE
+Epoch: 045, Train Loss: 17.7177, Train MAPE: 0.1365, Train RMSE: 29.6026, Valid Loss: 19.3572, Valid MAPE: 0.1361, Valid RMSE: 30.0454, Training Time: 37.2852/epoch
+Iter: 000, 16.3113 :Train Loss, 0.1447:Train MAPE, 27.5750: Train RMSE
+Iter: 050, 16.5677 :Train Loss, 0.1416:Train MAPE, 28.5662: Train RMSE
+Iter: 100, 16.4252 :Train Loss, 0.1388:Train MAPE, 28.2274: Train RMSE
+Iter: 150, 18.4862 :Train Loss, 0.1315:Train MAPE, 30.4597: Train RMSE
+Epoch: 046, Train Loss: 17.6208, Train MAPE: 0.1335, Train RMSE: 29.5266, Valid Loss: 19.3075, Valid MAPE: 0.1419, Valid RMSE: 29.9092, Training Time: 34.7328/epoch
+Iter: 000, 18.1715 :Train Loss, 0.1362:Train MAPE, 29.8133: Train RMSE
+Iter: 050, 17.6951 :Train Loss, 0.1369:Train MAPE, 30.2016: Train RMSE
+Iter: 100, 18.0147 :Train Loss, 0.1298:Train MAPE, 29.9411: Train RMSE
+Iter: 150, 17.1681 :Train Loss, 0.1340:Train MAPE, 28.8088: Train RMSE
+Epoch: 047, Train Loss: 17.6310, Train MAPE: 0.1336, Train RMSE: 29.5438, Valid Loss: 19.1770, Valid MAPE: 0.1427, Valid RMSE: 30.0016, Training Time: 35.3177/epoch
+Iter: 000, 15.2973 :Train Loss, 0.1618:Train MAPE, 26.5285: Train RMSE
+Iter: 050, 16.7270 :Train Loss, 0.1432:Train MAPE, 29.2473: Train RMSE
+Iter: 100, 15.1393 :Train Loss, 0.1505:Train MAPE, 26.4065: Train RMSE
+Iter: 150, 16.3730 :Train Loss, 0.1551:Train MAPE, 27.6697: Train RMSE
+Epoch: 048, Train Loss: 17.5777, Train MAPE: 0.1338, Train RMSE: 29.4579, Valid Loss: 19.4680, Valid MAPE: 0.1232, Valid RMSE: 30.2414, Training Time: 35.6644/epoch
+Iter: 000, 17.8579 :Train Loss, 0.1253:Train MAPE, 28.9307: Train RMSE
+Iter: 050, 18.5766 :Train Loss, 0.1220:Train MAPE, 30.3911: Train RMSE
+Iter: 100, 17.9719 :Train Loss, 0.1229:Train MAPE, 29.8229: Train RMSE
+Iter: 150, 18.6897 :Train Loss, 0.1286:Train MAPE, 30.4569: Train RMSE
+Epoch: 049, Train Loss: 17.6171, Train MAPE: 0.1338, Train RMSE: 29.5133, Valid Loss: 19.1569, Valid MAPE: 0.1377, Valid RMSE: 29.8107, Training Time: 37.2651/epoch
+Iter: 000, 18.0607 :Train Loss, 0.1318:Train MAPE, 30.1720: Train RMSE
+Iter: 050, 17.7598 :Train Loss, 0.1265:Train MAPE, 29.5602: Train RMSE
+Iter: 100, 17.8617 :Train Loss, 0.1277:Train MAPE, 29.5272: Train RMSE
+Iter: 150, 17.2206 :Train Loss, 0.1310:Train MAPE, 29.1757: Train RMSE
+Epoch: 050, Train Loss: 17.5257, Train MAPE: 0.1333, Train RMSE: 29.4018, Valid Loss: 19.0939, Valid MAPE: 0.1307, Valid RMSE: 30.0234, Training Time: 35.8859/epoch
+Iter: 000, 16.9519 :Train Loss, 0.1315:Train MAPE, 28.5496: Train RMSE
+Iter: 050, 15.7197 :Train Loss, 0.1354:Train MAPE, 26.6301: Train RMSE
+Iter: 100, 16.9279 :Train Loss, 0.1354:Train MAPE, 29.1466: Train RMSE
+Iter: 150, 18.8536 :Train Loss, 0.1309:Train MAPE, 31.5899: Train RMSE
+Epoch: 051, Train Loss: 17.5471, Train MAPE: 0.1338, Train RMSE: 29.4214, Valid Loss: 19.1624, Valid MAPE: 0.1411, Valid RMSE: 29.8360, Training Time: 35.3835/epoch
+Iter: 000, 16.9694 :Train Loss, 0.1420:Train MAPE, 28.6437: Train RMSE
+Iter: 050, 17.0653 :Train Loss, 0.1429:Train MAPE, 28.8117: Train RMSE
+Iter: 100, 17.6073 :Train Loss, 0.1298:Train MAPE, 29.5657: Train RMSE
+Iter: 150, 17.3844 :Train Loss, 0.1318:Train MAPE, 29.3810: Train RMSE
+Epoch: 052, Train Loss: 17.5113, Train MAPE: 0.1337, Train RMSE: 29.3687, Valid Loss: 19.1302, Valid MAPE: 0.1259, Valid RMSE: 29.9268, Training Time: 35.2299/epoch
+Iter: 000, 18.8518 :Train Loss, 0.1329:Train MAPE, 31.3674: Train RMSE
+Iter: 050, 18.7568 :Train Loss, 0.1171:Train MAPE, 30.9217: Train RMSE
+Iter: 100, 18.6674 :Train Loss, 0.1248:Train MAPE, 31.2598: Train RMSE
+Iter: 150, 17.5266 :Train Loss, 0.1395:Train MAPE, 29.6254: Train RMSE
+Epoch: 053, Train Loss: 17.5037, Train MAPE: 0.1331, Train RMSE: 29.3726, Valid Loss: 19.1284, Valid MAPE: 0.1312, Valid RMSE: 30.0145, Training Time: 36.2971/epoch
+Iter: 000, 16.9870 :Train Loss, 0.1358:Train MAPE, 28.7191: Train RMSE
+Iter: 050, 16.9824 :Train Loss, 0.1343:Train MAPE, 28.6422: Train RMSE
+Iter: 100, 18.0438 :Train Loss, 0.1232:Train MAPE, 29.7884: Train RMSE
+Iter: 150, 16.3513 :Train Loss, 0.1372:Train MAPE, 28.0808: Train RMSE
+Epoch: 054, Train Loss: 17.4387, Train MAPE: 0.1320, Train RMSE: 29.3043, Valid Loss: 18.9419, Valid MAPE: 0.1228, Valid RMSE: 29.7812, Training Time: 35.2772/epoch
+Iter: 000, 16.9521 :Train Loss, 0.1388:Train MAPE, 28.8947: Train RMSE
+Iter: 050, 17.5519 :Train Loss, 0.1293:Train MAPE, 29.3430: Train RMSE
+Iter: 100, 18.1619 :Train Loss, 0.1176:Train MAPE, 29.5614: Train RMSE
+Iter: 150, 15.8806 :Train Loss, 0.1370:Train MAPE, 26.8457: Train RMSE
+Epoch: 055, Train Loss: 17.4455, Train MAPE: 0.1326, Train RMSE: 29.3138, Valid Loss: 19.0444, Valid MAPE: 0.1258, Valid RMSE: 29.8495, Training Time: 35.0753/epoch
+Iter: 000, 15.6989 :Train Loss, 0.1412:Train MAPE, 27.5157: Train RMSE
+Iter: 050, 16.5317 :Train Loss, 0.1409:Train MAPE, 28.0997: Train RMSE
+Iter: 100, 18.5318 :Train Loss, 0.1212:Train MAPE, 30.3166: Train RMSE
+Iter: 150, 17.7910 :Train Loss, 0.1353:Train MAPE, 30.4096: Train RMSE
+Epoch: 056, Train Loss: 17.4293, Train MAPE: 0.1322, Train RMSE: 29.2796, Valid Loss: 19.0891, Valid MAPE: 0.1384, Valid RMSE: 29.9087, Training Time: 35.0527/epoch
+Iter: 000, 18.3065 :Train Loss, 0.1442:Train MAPE, 31.3058: Train RMSE
+Iter: 050, 17.5478 :Train Loss, 0.1359:Train MAPE, 29.0077: Train RMSE
+Iter: 100, 15.9030 :Train Loss, 0.1449:Train MAPE, 27.4122: Train RMSE
+Iter: 150, 18.9220 :Train Loss, 0.1250:Train MAPE, 30.6691: Train RMSE
+Epoch: 057, Train Loss: 17.4223, Train MAPE: 0.1327, Train RMSE: 29.2679, Valid Loss: 19.1040, Valid MAPE: 0.1314, Valid RMSE: 29.8254, Training Time: 35.1267/epoch
+Iter: 000, 17.7182 :Train Loss, 0.1317:Train MAPE, 29.6810: Train RMSE
+Iter: 050, 15.7073 :Train Loss, 0.1531:Train MAPE, 27.1566: Train RMSE
+Iter: 100, 16.1766 :Train Loss, 0.1608:Train MAPE, 27.3138: Train RMSE
+Iter: 150, 17.9501 :Train Loss, 0.1310:Train MAPE, 29.8579: Train RMSE
+Epoch: 058, Train Loss: 17.4120, Train MAPE: 0.1333, Train RMSE: 29.2377, Valid Loss: 19.0590, Valid MAPE: 0.1366, Valid RMSE: 29.8276, Training Time: 35.0212/epoch
+Iter: 000, 16.5517 :Train Loss, 0.1461:Train MAPE, 28.1321: Train RMSE
+Iter: 050, 15.5031 :Train Loss, 0.1365:Train MAPE, 26.4543: Train RMSE
+Iter: 100, 17.4152 :Train Loss, 0.1637:Train MAPE, 28.6816: Train RMSE
+Iter: 150, 17.0570 :Train Loss, 0.1302:Train MAPE, 28.1100: Train RMSE
+Epoch: 059, Train Loss: 17.4109, Train MAPE: 0.1360, Train RMSE: 29.1765, Valid Loss: 18.8461, Valid MAPE: 0.1215, Valid RMSE: 29.6729, Training Time: 35.0796/epoch
+Iter: 000, 18.0806 :Train Loss, 0.1225:Train MAPE, 30.3418: Train RMSE
+Iter: 050, 18.4318 :Train Loss, 0.1234:Train MAPE, 30.0166: Train RMSE
+Iter: 100, 16.6672 :Train Loss, 0.1351:Train MAPE, 28.1195: Train RMSE
+Iter: 150, 18.3262 :Train Loss, 0.1472:Train MAPE, 30.3590: Train RMSE
+Epoch: 060, Train Loss: 17.3802, Train MAPE: 0.1346, Train RMSE: 29.1658, Valid Loss: 19.0493, Valid MAPE: 0.1389, Valid RMSE: 29.7318, Training Time: 35.0546/epoch
+Iter: 000, 18.1385 :Train Loss, 0.1422:Train MAPE, 29.6236: Train RMSE
+Iter: 050, 17.3508 :Train Loss, 0.1350:Train MAPE, 29.3388: Train RMSE
+Iter: 100, 16.0214 :Train Loss, 0.1413:Train MAPE, 27.5509: Train RMSE
+Iter: 150, 16.4486 :Train Loss, 0.1329:Train MAPE, 28.2299: Train RMSE
+Epoch: 061, Train Loss: 17.4300, Train MAPE: 0.1338, Train RMSE: 29.2567, Valid Loss: 18.9456, Valid MAPE: 0.1253, Valid RMSE: 29.8484, Training Time: 35.0890/epoch
+Iter: 000, 15.7837 :Train Loss, 0.1361:Train MAPE, 27.0439: Train RMSE
+Iter: 050, 16.4840 :Train Loss, 0.1337:Train MAPE, 27.6867: Train RMSE
+Iter: 100, 17.1270 :Train Loss, 0.1275:Train MAPE, 28.3516: Train RMSE
+Iter: 150, 16.6942 :Train Loss, 0.1425:Train MAPE, 28.1728: Train RMSE
+Epoch: 062, Train Loss: 17.3332, Train MAPE: 0.1309, Train RMSE: 29.1715, Valid Loss: 18.9939, Valid MAPE: 0.1243, Valid RMSE: 29.7874, Training Time: 35.0741/epoch
+Iter: 000, 17.5952 :Train Loss, 0.1248:Train MAPE, 29.1804: Train RMSE
+Iter: 050, 16.5961 :Train Loss, 0.1309:Train MAPE, 27.5150: Train RMSE
+Iter: 100, 17.4743 :Train Loss, 0.1357:Train MAPE, 29.3390: Train RMSE
+Iter: 150, 17.3241 :Train Loss, 0.1329:Train MAPE, 28.9426: Train RMSE
+Epoch: 063, Train Loss: 17.3485, Train MAPE: 0.1318, Train RMSE: 29.1573, Valid Loss: 19.0016, Valid MAPE: 0.1248, Valid RMSE: 29.9358, Training Time: 35.0196/epoch
+Iter: 000, 18.0727 :Train Loss, 0.1275:Train MAPE, 30.5348: Train RMSE
+Iter: 050, 17.0188 :Train Loss, 0.1285:Train MAPE, 28.3854: Train RMSE
+Iter: 100, 16.7431 :Train Loss, 0.1315:Train MAPE, 28.5618: Train RMSE
+Iter: 150, 16.9801 :Train Loss, 0.1381:Train MAPE, 28.3801: Train RMSE
+Epoch: 064, Train Loss: 17.3581, Train MAPE: 0.1316, Train RMSE: 29.1922, Valid Loss: 19.1266, Valid MAPE: 0.1230, Valid RMSE: 30.1248, Training Time: 35.4362/epoch
+Iter: 000, 18.7372 :Train Loss, 0.1267:Train MAPE, 31.7928: Train RMSE
+Iter: 050, 16.3236 :Train Loss, 0.1446:Train MAPE, 28.2397: Train RMSE
+Iter: 100, 16.5208 :Train Loss, 0.1376:Train MAPE, 28.2009: Train RMSE
+Iter: 150, 16.2517 :Train Loss, 0.1263:Train MAPE, 27.4853: Train RMSE
+Epoch: 065, Train Loss: 17.2777, Train MAPE: 0.1312, Train RMSE: 29.0744, Valid Loss: 18.8570, Valid MAPE: 0.1243, Valid RMSE: 29.7307, Training Time: 35.7946/epoch
+Iter: 000, 17.4341 :Train Loss, 0.1234:Train MAPE, 29.1828: Train RMSE
+Iter: 050, 16.6692 :Train Loss, 0.1293:Train MAPE, 28.1502: Train RMSE
+Iter: 100, 18.2512 :Train Loss, 0.1188:Train MAPE, 29.8282: Train RMSE
+Iter: 150, 17.0801 :Train Loss, 0.1283:Train MAPE, 28.9326: Train RMSE
+Epoch: 066, Train Loss: 17.2922, Train MAPE: 0.1303, Train RMSE: 29.1255, Valid Loss: 19.1161, Valid MAPE: 0.1234, Valid RMSE: 29.8648, Training Time: 35.8199/epoch
+Iter: 000, 16.1485 :Train Loss, 0.1438:Train MAPE, 28.1522: Train RMSE
+Iter: 050, 17.6190 :Train Loss, 0.1413:Train MAPE, 29.4492: Train RMSE
+Iter: 100, 15.2187 :Train Loss, 0.1455:Train MAPE, 25.7115: Train RMSE
+Iter: 150, 17.8484 :Train Loss, 0.1263:Train MAPE, 29.4361: Train RMSE
+Epoch: 067, Train Loss: 17.3293, Train MAPE: 0.1340, Train RMSE: 29.0693, Valid Loss: 19.0049, Valid MAPE: 0.1368, Valid RMSE: 29.6738, Training Time: 35.0761/epoch
+Iter: 000, 17.7982 :Train Loss, 0.1234:Train MAPE, 28.9163: Train RMSE
+Iter: 050, 15.9896 :Train Loss, 0.1304:Train MAPE, 27.1547: Train RMSE
+Iter: 100, 16.4128 :Train Loss, 0.1290:Train MAPE, 27.8489: Train RMSE
+Iter: 150, 17.7512 :Train Loss, 0.1228:Train MAPE, 29.9042: Train RMSE
+Epoch: 068, Train Loss: 17.2291, Train MAPE: 0.1305, Train RMSE: 29.0190, Valid Loss: 19.1496, Valid MAPE: 0.1326, Valid RMSE: 29.8513, Training Time: 34.9647/epoch
+Iter: 000, 18.9174 :Train Loss, 0.1285:Train MAPE, 32.0015: Train RMSE
+Iter: 050, 17.8201 :Train Loss, 0.1207:Train MAPE, 29.1593: Train RMSE
+Iter: 100, 17.9352 :Train Loss, 0.1164:Train MAPE, 29.3344: Train RMSE
+Iter: 150, 15.9871 :Train Loss, 0.1387:Train MAPE, 27.5718: Train RMSE
+Epoch: 069, Train Loss: 17.2513, Train MAPE: 0.1307, Train RMSE: 29.0510, Valid Loss: 18.9146, Valid MAPE: 0.1220, Valid RMSE: 29.7217, Training Time: 35.3835/epoch
+Iter: 000, 18.7944 :Train Loss, 0.1218:Train MAPE, 31.0454: Train RMSE
+Iter: 050, 17.4683 :Train Loss, 0.1462:Train MAPE, 29.7316: Train RMSE
+Iter: 100, 16.2231 :Train Loss, 0.1482:Train MAPE, 27.5084: Train RMSE
+Iter: 150, 16.9606 :Train Loss, 0.1351:Train MAPE, 29.6097: Train RMSE
+Epoch: 070, Train Loss: 17.2364, Train MAPE: 0.1308, Train RMSE: 29.0300, Valid Loss: 18.9880, Valid MAPE: 0.1270, Valid RMSE: 29.7597, Training Time: 35.4996/epoch
+Iter: 000, 17.8851 :Train Loss, 0.1258:Train MAPE, 29.3289: Train RMSE
+Iter: 050, 16.1681 :Train Loss, 0.1282:Train MAPE, 27.4263: Train RMSE
+Iter: 100, 16.3712 :Train Loss, 0.1290:Train MAPE, 27.3798: Train RMSE
+Iter: 150, 17.3306 :Train Loss, 0.1508:Train MAPE, 29.1112: Train RMSE
+Epoch: 071, Train Loss: 17.1998, Train MAPE: 0.1329, Train RMSE: 28.9311, Valid Loss: 18.9411, Valid MAPE: 0.1217, Valid RMSE: 29.6921, Training Time: 36.2625/epoch
+Iter: 000, 17.0641 :Train Loss, 0.1308:Train MAPE, 28.5550: Train RMSE
+Iter: 050, 17.0006 :Train Loss, 0.1297:Train MAPE, 28.8490: Train RMSE
+Iter: 100, 15.5297 :Train Loss, 0.1439:Train MAPE, 27.6309: Train RMSE
+Iter: 150, 17.4338 :Train Loss, 0.1467:Train MAPE, 29.4878: Train RMSE
+Epoch: 072, Train Loss: 17.1890, Train MAPE: 0.1323, Train RMSE: 28.9155, Valid Loss: 18.9101, Valid MAPE: 0.1210, Valid RMSE: 29.7215, Training Time: 35.5775/epoch
+Iter: 000, 16.6426 :Train Loss, 0.1224:Train MAPE, 27.2772: Train RMSE
+Iter: 050, 17.6205 :Train Loss, 0.1229:Train MAPE, 29.1740: Train RMSE
+Iter: 100, 16.2254 :Train Loss, 0.1328:Train MAPE, 27.4410: Train RMSE
+Iter: 150, 17.7527 :Train Loss, 0.1193:Train MAPE, 29.3324: Train RMSE
+Epoch: 073, Train Loss: 17.1836, Train MAPE: 0.1302, Train RMSE: 28.9483, Valid Loss: 18.8819, Valid MAPE: 0.1329, Valid RMSE: 29.6395, Training Time: 35.6693/epoch
+Iter: 000, 14.0822 :Train Loss, 0.1676:Train MAPE, 24.6880: Train RMSE
+Iter: 050, 16.9849 :Train Loss, 0.1306:Train MAPE, 28.4671: Train RMSE
+Iter: 100, 17.8919 :Train Loss, 0.1206:Train MAPE, 29.6840: Train RMSE
+Iter: 150, 17.5028 :Train Loss, 0.1294:Train MAPE, 30.1114: Train RMSE
+Epoch: 074, Train Loss: 17.2119, Train MAPE: 0.1303, Train RMSE: 28.9996, Valid Loss: 18.9002, Valid MAPE: 0.1220, Valid RMSE: 29.7867, Training Time: 35.4378/epoch
+Iter: 000, 17.0965 :Train Loss, 0.1297:Train MAPE, 28.5879: Train RMSE
+Iter: 050, 16.6846 :Train Loss, 0.1268:Train MAPE, 28.1786: Train RMSE
+Iter: 100, 17.3452 :Train Loss, 0.1299:Train MAPE, 28.9424: Train RMSE
+Iter: 150, 18.0616 :Train Loss, 0.1276:Train MAPE, 30.7174: Train RMSE
+Epoch: 075, Train Loss: 17.1755, Train MAPE: 0.1319, Train RMSE: 28.9087, Valid Loss: 19.0653, Valid MAPE: 0.1429, Valid RMSE: 29.8346, Training Time: 35.4783/epoch
+Iter: 000, 16.1766 :Train Loss, 0.1544:Train MAPE, 27.2560: Train RMSE
+Iter: 050, 15.9278 :Train Loss, 0.1350:Train MAPE, 27.3280: Train RMSE
+Iter: 100, 17.5655 :Train Loss, 0.1336:Train MAPE, 30.1896: Train RMSE
+Iter: 150, 18.0893 :Train Loss, 0.1254:Train MAPE, 29.6990: Train RMSE
+Epoch: 076, Train Loss: 17.1711, Train MAPE: 0.1317, Train RMSE: 28.9126, Valid Loss: 18.8654, Valid MAPE: 0.1339, Valid RMSE: 29.6280, Training Time: 35.2275/epoch
+Iter: 000, 17.2829 :Train Loss, 0.1349:Train MAPE, 28.6120: Train RMSE
+Iter: 050, 17.6123 :Train Loss, 0.1382:Train MAPE, 29.0921: Train RMSE
+Iter: 100, 18.1859 :Train Loss, 0.1332:Train MAPE, 31.5674: Train RMSE
+Iter: 150, 16.9081 :Train Loss, 0.1346:Train MAPE, 29.3467: Train RMSE
+Epoch: 077, Train Loss: 17.1309, Train MAPE: 0.1311, Train RMSE: 28.8636, Valid Loss: 18.8539, Valid MAPE: 0.1324, Valid RMSE: 29.6843, Training Time: 35.4039/epoch
+Iter: 000, 17.1855 :Train Loss, 0.1324:Train MAPE, 28.5758: Train RMSE
+Iter: 050, 17.0420 :Train Loss, 0.1244:Train MAPE, 28.2325: Train RMSE
+Iter: 100, 16.9225 :Train Loss, 0.1269:Train MAPE, 28.1130: Train RMSE
+Iter: 150, 17.2818 :Train Loss, 0.1236:Train MAPE, 28.8436: Train RMSE
+Epoch: 078, Train Loss: 17.1137, Train MAPE: 0.1295, Train RMSE: 28.8717, Valid Loss: 18.8294, Valid MAPE: 0.1221, Valid RMSE: 29.7998, Training Time: 36.0604/epoch
+Iter: 000, 16.9714 :Train Loss, 0.1264:Train MAPE, 29.3412: Train RMSE
+Iter: 050, 18.0331 :Train Loss, 0.1250:Train MAPE, 30.9487: Train RMSE
+Iter: 100, 15.8692 :Train Loss, 0.1525:Train MAPE, 27.4154: Train RMSE
+Iter: 150, 18.1878 :Train Loss, 0.1213:Train MAPE, 29.5995: Train RMSE
+Epoch: 079, Train Loss: 17.1461, Train MAPE: 0.1317, Train RMSE: 28.8681, Valid Loss: 18.7453, Valid MAPE: 0.1213, Valid RMSE: 29.6532, Training Time: 35.6250/epoch
+Iter: 000, 16.8458 :Train Loss, 0.1320:Train MAPE, 29.1276: Train RMSE
+Iter: 050, 16.7224 :Train Loss, 0.1340:Train MAPE, 28.6404: Train RMSE
+Iter: 100, 17.0997 :Train Loss, 0.1236:Train MAPE, 28.1126: Train RMSE
+Iter: 150, 17.1656 :Train Loss, 0.1351:Train MAPE, 28.8985: Train RMSE
+Epoch: 080, Train Loss: 17.0790, Train MAPE: 0.1295, Train RMSE: 28.8342, Valid Loss: 19.0224, Valid MAPE: 0.1214, Valid RMSE: 29.9055, Training Time: 35.6522/epoch
+Iter: 000, 15.8514 :Train Loss, 0.1359:Train MAPE, 27.1784: Train RMSE
+Iter: 050, 17.2152 :Train Loss, 0.1186:Train MAPE, 28.7072: Train RMSE
+Iter: 100, 17.1011 :Train Loss, 0.1368:Train MAPE, 29.4389: Train RMSE
+Iter: 150, 18.4019 :Train Loss, 0.1119:Train MAPE, 29.7508: Train RMSE
+Epoch: 081, Train Loss: 17.0881, Train MAPE: 0.1318, Train RMSE: 28.7858, Valid Loss: 18.8803, Valid MAPE: 0.1366, Valid RMSE: 29.6220, Training Time: 35.9670/epoch
+Iter: 000, 16.7481 :Train Loss, 0.1351:Train MAPE, 27.7473: Train RMSE
+Iter: 050, 16.3023 :Train Loss, 0.1464:Train MAPE, 27.2473: Train RMSE
+Iter: 100, 16.3130 :Train Loss, 0.1220:Train MAPE, 27.3337: Train RMSE
+Iter: 150, 17.6632 :Train Loss, 0.1212:Train MAPE, 29.7997: Train RMSE
+Epoch: 082, Train Loss: 17.0677, Train MAPE: 0.1302, Train RMSE: 28.7865, Valid Loss: 18.9006, Valid MAPE: 0.1227, Valid RMSE: 29.7530, Training Time: 35.4932/epoch
+Iter: 000, 18.5366 :Train Loss, 0.1203:Train MAPE, 30.4090: Train RMSE
+Iter: 050, 16.7783 :Train Loss, 0.1255:Train MAPE, 27.9918: Train RMSE
+Iter: 100, 17.4052 :Train Loss, 0.1353:Train MAPE, 29.2600: Train RMSE
+Iter: 150, 17.6395 :Train Loss, 0.1231:Train MAPE, 29.6440: Train RMSE
+Epoch: 083, Train Loss: 17.0585, Train MAPE: 0.1297, Train RMSE: 28.7833, Valid Loss: 18.8592, Valid MAPE: 0.1265, Valid RMSE: 29.6753, Training Time: 35.9828/epoch
+Iter: 000, 18.2677 :Train Loss, 0.1273:Train MAPE, 30.4618: Train RMSE
+Iter: 050, 16.6471 :Train Loss, 0.1209:Train MAPE, 28.1400: Train RMSE
+Iter: 100, 18.2185 :Train Loss, 0.1244:Train MAPE, 30.3070: Train RMSE
+Iter: 150, 16.4663 :Train Loss, 0.1374:Train MAPE, 27.5650: Train RMSE
+Epoch: 084, Train Loss: 17.0846, Train MAPE: 0.1296, Train RMSE: 28.8203, Valid Loss: 18.7684, Valid MAPE: 0.1320, Valid RMSE: 29.5482, Training Time: 36.0082/epoch
+Iter: 000, 16.7883 :Train Loss, 0.1476:Train MAPE, 29.1941: Train RMSE
+Iter: 050, 16.4134 :Train Loss, 0.1253:Train MAPE, 27.3710: Train RMSE
+Iter: 100, 15.6123 :Train Loss, 0.1410:Train MAPE, 26.8310: Train RMSE
+Iter: 150, 16.7127 :Train Loss, 0.1449:Train MAPE, 27.8879: Train RMSE
+Epoch: 085, Train Loss: 17.0558, Train MAPE: 0.1310, Train RMSE: 28.7427, Valid Loss: 18.7533, Valid MAPE: 0.1207, Valid RMSE: 29.5576, Training Time: 35.5285/epoch
+Iter: 000, 16.3849 :Train Loss, 0.1239:Train MAPE, 27.6659: Train RMSE
+Iter: 050, 17.7553 :Train Loss, 0.1219:Train MAPE, 29.5938: Train RMSE
+Iter: 100, 17.2611 :Train Loss, 0.1307:Train MAPE, 29.7828: Train RMSE
+Iter: 150, 16.7507 :Train Loss, 0.1271:Train MAPE, 28.5911: Train RMSE
+Epoch: 086, Train Loss: 17.0042, Train MAPE: 0.1289, Train RMSE: 28.7239, Valid Loss: 18.9704, Valid MAPE: 0.1263, Valid RMSE: 29.8790, Training Time: 35.6998/epoch
+Iter: 000, 17.9888 :Train Loss, 0.1191:Train MAPE, 29.9438: Train RMSE
+Iter: 050, 17.2887 :Train Loss, 0.1358:Train MAPE, 28.5772: Train RMSE
+Iter: 100, 16.1800 :Train Loss, 0.1362:Train MAPE, 27.5702: Train RMSE
+Iter: 150, 17.5620 :Train Loss, 0.1300:Train MAPE, 29.7627: Train RMSE
+Epoch: 087, Train Loss: 17.0445, Train MAPE: 0.1296, Train RMSE: 28.7501, Valid Loss: 18.7951, Valid MAPE: 0.1286, Valid RMSE: 29.6190, Training Time: 35.0921/epoch
+Iter: 000, 16.0874 :Train Loss, 0.1404:Train MAPE, 27.5246: Train RMSE
+Iter: 050, 18.0732 :Train Loss, 0.1244:Train MAPE, 30.0910: Train RMSE
+Iter: 100, 15.5241 :Train Loss, 0.1389:Train MAPE, 26.5377: Train RMSE
+Iter: 150, 17.0940 :Train Loss, 0.1295:Train MAPE, 28.8186: Train RMSE
+Epoch: 088, Train Loss: 17.0282, Train MAPE: 0.1296, Train RMSE: 28.7313, Valid Loss: 18.7566, Valid MAPE: 0.1209, Valid RMSE: 29.7427, Training Time: 35.9114/epoch
+Iter: 000, 16.0938 :Train Loss, 0.1331:Train MAPE, 28.1321: Train RMSE
+Iter: 050, 17.7659 :Train Loss, 0.1257:Train MAPE, 29.2940: Train RMSE
+Iter: 100, 16.1975 :Train Loss, 0.1367:Train MAPE, 26.8832: Train RMSE
+Iter: 150, 17.6511 :Train Loss, 0.1250:Train MAPE, 29.6224: Train RMSE
+Epoch: 089, Train Loss: 17.0156, Train MAPE: 0.1301, Train RMSE: 28.7116, Valid Loss: 18.8397, Valid MAPE: 0.1227, Valid RMSE: 29.8919, Training Time: 35.8981/epoch
+Iter: 000, 17.0125 :Train Loss, 0.1290:Train MAPE, 28.9783: Train RMSE
+Iter: 050, 16.5830 :Train Loss, 0.1449:Train MAPE, 28.5999: Train RMSE
+Iter: 100, 18.4035 :Train Loss, 0.1183:Train MAPE, 30.1721: Train RMSE
+Iter: 150, 17.9772 :Train Loss, 0.1157:Train MAPE, 29.7155: Train RMSE
+Epoch: 090, Train Loss: 16.9959, Train MAPE: 0.1295, Train RMSE: 28.6865, Valid Loss: 18.7036, Valid MAPE: 0.1247, Valid RMSE: 29.5509, Training Time: 35.6458/epoch
+Iter: 000, 17.1459 :Train Loss, 0.1186:Train MAPE, 28.4498: Train RMSE
+Iter: 050, 17.7844 :Train Loss, 0.1186:Train MAPE, 29.7501: Train RMSE
+Iter: 100, 16.2611 :Train Loss, 0.1361:Train MAPE, 27.4620: Train RMSE
+Iter: 150, 16.3758 :Train Loss, 0.1335:Train MAPE, 28.4371: Train RMSE
+Epoch: 091, Train Loss: 16.9921, Train MAPE: 0.1282, Train RMSE: 28.7052, Valid Loss: 18.8494, Valid MAPE: 0.1244, Valid RMSE: 29.6470, Training Time: 35.8219/epoch
+Iter: 000, 16.1152 :Train Loss, 0.1404:Train MAPE, 27.9902: Train RMSE
+Iter: 050, 16.5601 :Train Loss, 0.1322:Train MAPE, 28.0080: Train RMSE
+Iter: 100, 16.6656 :Train Loss, 0.1237:Train MAPE, 28.0727: Train RMSE
+Iter: 150, 16.2316 :Train Loss, 0.1289:Train MAPE, 27.3639: Train RMSE
+Epoch: 092, Train Loss: 16.9666, Train MAPE: 0.1289, Train RMSE: 28.6712, Valid Loss: 18.9005, Valid MAPE: 0.1209, Valid RMSE: 29.7272, Training Time: 35.5938/epoch
+Iter: 000, 16.2194 :Train Loss, 0.1318:Train MAPE, 27.6347: Train RMSE
+Iter: 050, 15.6537 :Train Loss, 0.1359:Train MAPE, 27.5076: Train RMSE
+Iter: 100, 16.2592 :Train Loss, 0.1540:Train MAPE, 27.3951: Train RMSE
+Iter: 150, 16.7012 :Train Loss, 0.1370:Train MAPE, 28.1967: Train RMSE
+Epoch: 093, Train Loss: 16.9651, Train MAPE: 0.1294, Train RMSE: 28.6539, Valid Loss: 18.8933, Valid MAPE: 0.1249, Valid RMSE: 29.7523, Training Time: 35.6168/epoch
+Iter: 000, 15.2410 :Train Loss, 0.1480:Train MAPE, 26.3263: Train RMSE
+Iter: 050, 18.3828 :Train Loss, 0.1187:Train MAPE, 30.1617: Train RMSE
+Iter: 100, 18.3174 :Train Loss, 0.1184:Train MAPE, 30.7021: Train RMSE
+Iter: 150, 17.7870 :Train Loss, 0.1259:Train MAPE, 29.4965: Train RMSE
+Epoch: 094, Train Loss: 16.9827, Train MAPE: 0.1280, Train RMSE: 28.7041, Valid Loss: 18.8930, Valid MAPE: 0.1331, Valid RMSE: 29.5455, Training Time: 35.9176/epoch
+Iter: 000, 16.4197 :Train Loss, 0.1384:Train MAPE, 27.7092: Train RMSE
+Iter: 050, 16.2562 :Train Loss, 0.1429:Train MAPE, 27.3510: Train RMSE
+Iter: 100, 15.8585 :Train Loss, 0.1280:Train MAPE, 27.2417: Train RMSE
+Iter: 150, 17.5994 :Train Loss, 0.1272:Train MAPE, 29.2030: Train RMSE
+Epoch: 095, Train Loss: 16.9399, Train MAPE: 0.1305, Train RMSE: 28.5869, Valid Loss: 18.7492, Valid MAPE: 0.1322, Valid RMSE: 29.5650, Training Time: 35.2662/epoch
+Iter: 000, 16.5125 :Train Loss, 0.1411:Train MAPE, 27.5071: Train RMSE
+Iter: 050, 17.4689 :Train Loss, 0.1342:Train MAPE, 29.8301: Train RMSE
+Iter: 100, 17.6488 :Train Loss, 0.1249:Train MAPE, 30.0656: Train RMSE
+Iter: 150, 17.3109 :Train Loss, 0.1253:Train MAPE, 29.2428: Train RMSE
+Epoch: 096, Train Loss: 16.9153, Train MAPE: 0.1302, Train RMSE: 28.5576, Valid Loss: 18.7259, Valid MAPE: 0.1207, Valid RMSE: 29.6731, Training Time: 35.4576/epoch
+Iter: 000, 18.5180 :Train Loss, 0.1110:Train MAPE, 30.4079: Train RMSE
+Iter: 050, 16.5416 :Train Loss, 0.1422:Train MAPE, 28.4111: Train RMSE
+Iter: 100, 17.3464 :Train Loss, 0.1387:Train MAPE, 29.5445: Train RMSE
+Iter: 150, 16.4109 :Train Loss, 0.1323:Train MAPE, 28.3786: Train RMSE
+Epoch: 097, Train Loss: 16.9321, Train MAPE: 0.1296, Train RMSE: 28.5995, Valid Loss: 18.9062, Valid MAPE: 0.1229, Valid RMSE: 29.7912, Training Time: 35.4612/epoch
+Iter: 000, 17.8018 :Train Loss, 0.1203:Train MAPE, 29.7191: Train RMSE
+Iter: 050, 17.9222 :Train Loss, 0.1223:Train MAPE, 29.8100: Train RMSE
+Iter: 100, 18.4827 :Train Loss, 0.1113:Train MAPE, 30.3319: Train RMSE
+Iter: 150, 15.0434 :Train Loss, 0.1440:Train MAPE, 26.2096: Train RMSE
+Epoch: 098, Train Loss: 16.9293, Train MAPE: 0.1275, Train RMSE: 28.6314, Valid Loss: 18.6870, Valid MAPE: 0.1261, Valid RMSE: 29.5708, Training Time: 35.4295/epoch
+Iter: 000, 17.5795 :Train Loss, 0.1180:Train MAPE, 28.9996: Train RMSE
+Iter: 050, 15.6346 :Train Loss, 0.1357:Train MAPE, 27.2112: Train RMSE
+Iter: 100, 16.8419 :Train Loss, 0.1328:Train MAPE, 28.8615: Train RMSE
+Iter: 150, 16.3405 :Train Loss, 0.1289:Train MAPE, 27.7082: Train RMSE
+Epoch: 099, Train Loss: 16.9052, Train MAPE: 0.1272, Train RMSE: 28.6107, Valid Loss: 18.6926, Valid MAPE: 0.1206, Valid RMSE: 29.6596, Training Time: 35.3195/epoch
+Iter: 000, 16.7516 :Train Loss, 0.1210:Train MAPE, 28.3669: Train RMSE
+Iter: 050, 16.3239 :Train Loss, 0.1300:Train MAPE, 28.2051: Train RMSE
+Iter: 100, 16.5935 :Train Loss, 0.1364:Train MAPE, 28.4160: Train RMSE
+Iter: 150, 16.5898 :Train Loss, 0.1231:Train MAPE, 27.9489: Train RMSE
+Epoch: 100, Train Loss: 16.8934, Train MAPE: 0.1281, Train RMSE: 28.5705, Valid Loss: 18.6888, Valid MAPE: 0.1208, Valid RMSE: 29.6180, Training Time: 36.0981/epoch
+Iter: 000, 17.3036 :Train Loss, 0.1266:Train MAPE, 29.9532: Train RMSE
+Iter: 050, 15.7241 :Train Loss, 0.1336:Train MAPE, 27.4115: Train RMSE
+Iter: 100, 16.6560 :Train Loss, 0.1254:Train MAPE, 28.2614: Train RMSE
+Iter: 150, 16.5224 :Train Loss, 0.1279:Train MAPE, 27.9917: Train RMSE
+Epoch: 101, Train Loss: 16.8889, Train MAPE: 0.1280, Train RMSE: 28.5719, Valid Loss: 18.6784, Valid MAPE: 0.1217, Valid RMSE: 29.6088, Training Time: 35.4630/epoch
+Iter: 000, 15.8597 :Train Loss, 0.1275:Train MAPE, 26.9301: Train RMSE
+Iter: 050, 16.9331 :Train Loss, 0.1229:Train MAPE, 28.5976: Train RMSE
+Iter: 100, 16.5262 :Train Loss, 0.1230:Train MAPE, 27.6179: Train RMSE
+Iter: 150, 18.2762 :Train Loss, 0.1143:Train MAPE, 30.0842: Train RMSE
+Epoch: 102, Train Loss: 16.8579, Train MAPE: 0.1272, Train RMSE: 28.5504, Valid Loss: 18.8056, Valid MAPE: 0.1251, Valid RMSE: 29.7654, Training Time: 35.2077/epoch
+Iter: 000, 17.2325 :Train Loss, 0.1273:Train MAPE, 29.2743: Train RMSE
+Iter: 050, 15.9607 :Train Loss, 0.1331:Train MAPE, 27.6720: Train RMSE
+Iter: 100, 14.5228 :Train Loss, 0.1378:Train MAPE, 25.5241: Train RMSE
+Iter: 150, 17.1646 :Train Loss, 0.1326:Train MAPE, 28.7097: Train RMSE
+Epoch: 103, Train Loss: 16.8695, Train MAPE: 0.1277, Train RMSE: 28.5431, Valid Loss: 18.7225, Valid MAPE: 0.1202, Valid RMSE: 29.5933, Training Time: 35.8966/epoch
+Iter: 000, 17.3969 :Train Loss, 0.1243:Train MAPE, 29.6583: Train RMSE
+Iter: 050, 17.3937 :Train Loss, 0.1221:Train MAPE, 29.0270: Train RMSE
+Iter: 100, 16.7025 :Train Loss, 0.1190:Train MAPE, 28.1822: Train RMSE
+Iter: 150, 16.2567 :Train Loss, 0.1314:Train MAPE, 27.7625: Train RMSE
+Epoch: 104, Train Loss: 16.8787, Train MAPE: 0.1286, Train RMSE: 28.5408, Valid Loss: 18.8025, Valid MAPE: 0.1215, Valid RMSE: 29.6394, Training Time: 35.4008/epoch
+Iter: 000, 16.3938 :Train Loss, 0.1214:Train MAPE, 27.5074: Train RMSE
+Iter: 050, 16.8520 :Train Loss, 0.1224:Train MAPE, 28.3326: Train RMSE
+Iter: 100, 16.0666 :Train Loss, 0.1298:Train MAPE, 27.7165: Train RMSE
+Iter: 150, 17.2486 :Train Loss, 0.1230:Train MAPE, 29.3800: Train RMSE
+Epoch: 105, Train Loss: 16.8435, Train MAPE: 0.1272, Train RMSE: 28.5215, Valid Loss: 18.7093, Valid MAPE: 0.1232, Valid RMSE: 29.6030, Training Time: 35.7910/epoch
+Iter: 000, 18.4760 :Train Loss, 0.1169:Train MAPE, 30.7086: Train RMSE
+Iter: 050, 17.7686 :Train Loss, 0.1135:Train MAPE, 29.4046: Train RMSE
+Iter: 100, 15.7982 :Train Loss, 0.1255:Train MAPE, 26.4844: Train RMSE
+Iter: 150, 15.5408 :Train Loss, 0.1315:Train MAPE, 27.0140: Train RMSE
+Epoch: 106, Train Loss: 16.8102, Train MAPE: 0.1272, Train RMSE: 28.4585, Valid Loss: 18.7343, Valid MAPE: 0.1212, Valid RMSE: 29.6439, Training Time: 35.7707/epoch
+Iter: 000, 16.4136 :Train Loss, 0.1206:Train MAPE, 27.7568: Train RMSE
+Iter: 050, 15.7606 :Train Loss, 0.1284:Train MAPE, 27.1843: Train RMSE
+Iter: 100, 18.2137 :Train Loss, 0.1140:Train MAPE, 30.1091: Train RMSE
+Iter: 150, 16.7132 :Train Loss, 0.1318:Train MAPE, 28.2435: Train RMSE
+Epoch: 107, Train Loss: 16.7999, Train MAPE: 0.1269, Train RMSE: 28.4677, Valid Loss: 18.7536, Valid MAPE: 0.1229, Valid RMSE: 29.7133, Training Time: 35.9064/epoch
+Iter: 000, 17.8871 :Train Loss, 0.1207:Train MAPE, 30.0272: Train RMSE
+Iter: 050, 17.8304 :Train Loss, 0.1103:Train MAPE, 29.3669: Train RMSE
+Iter: 100, 19.6938 :Train Loss, 0.1164:Train MAPE, 32.7980: Train RMSE
+Iter: 150, 17.7650 :Train Loss, 0.1195:Train MAPE, 30.1723: Train RMSE
+Epoch: 108, Train Loss: 16.7971, Train MAPE: 0.1266, Train RMSE: 28.4710, Valid Loss: 18.7748, Valid MAPE: 0.1228, Valid RMSE: 29.6907, Training Time: 36.3168/epoch
+Iter: 000, 17.1801 :Train Loss, 0.1223:Train MAPE, 28.6564: Train RMSE
+Iter: 050, 16.8505 :Train Loss, 0.1273:Train MAPE, 28.0780: Train RMSE
+Iter: 100, 15.5159 :Train Loss, 0.1338:Train MAPE, 26.6975: Train RMSE
+Iter: 150, 17.1300 :Train Loss, 0.1233:Train MAPE, 28.8451: Train RMSE
+Epoch: 109, Train Loss: 16.8090, Train MAPE: 0.1280, Train RMSE: 28.4557, Valid Loss: 18.6752, Valid MAPE: 0.1213, Valid RMSE: 29.4675, Training Time: 35.1225/epoch
+Iter: 000, 16.9011 :Train Loss, 0.1200:Train MAPE, 28.2524: Train RMSE
+Iter: 050, 16.4242 :Train Loss, 0.1233:Train MAPE, 27.8060: Train RMSE
+Iter: 100, 16.6200 :Train Loss, 0.1386:Train MAPE, 28.5094: Train RMSE
+Iter: 150, 15.3192 :Train Loss, 0.1361:Train MAPE, 26.5567: Train RMSE
+Epoch: 110, Train Loss: 16.8158, Train MAPE: 0.1279, Train RMSE: 28.4593, Valid Loss: 18.7250, Valid MAPE: 0.1256, Valid RMSE: 29.5528, Training Time: 35.2886/epoch
+Iter: 000, 16.8048 :Train Loss, 0.1352:Train MAPE, 28.0517: Train RMSE
+Iter: 050, 16.3408 :Train Loss, 0.1388:Train MAPE, 27.7640: Train RMSE
+Iter: 100, 18.0023 :Train Loss, 0.1244:Train MAPE, 30.1093: Train RMSE
+Iter: 150, 18.8899 :Train Loss, 0.1219:Train MAPE, 31.3533: Train RMSE
+Epoch: 111, Train Loss: 16.7795, Train MAPE: 0.1281, Train RMSE: 28.3906, Valid Loss: 18.7343, Valid MAPE: 0.1253, Valid RMSE: 29.6928, Training Time: 35.7116/epoch
+Iter: 000, 16.9021 :Train Loss, 0.1260:Train MAPE, 28.1160: Train RMSE
+Iter: 050, 16.8064 :Train Loss, 0.1181:Train MAPE, 28.1781: Train RMSE
+Iter: 100, 18.6232 :Train Loss, 0.1144:Train MAPE, 30.9206: Train RMSE
+Iter: 150, 16.9887 :Train Loss, 0.1249:Train MAPE, 28.5964: Train RMSE
+Epoch: 112, Train Loss: 16.7980, Train MAPE: 0.1272, Train RMSE: 28.4467, Valid Loss: 18.8142, Valid MAPE: 0.1218, Valid RMSE: 29.7840, Training Time: 35.4758/epoch
+Iter: 000, 15.4083 :Train Loss, 0.1337:Train MAPE, 26.6514: Train RMSE
+Iter: 050, 16.7962 :Train Loss, 0.1325:Train MAPE, 28.5598: Train RMSE
+Iter: 100, 16.3147 :Train Loss, 0.1320:Train MAPE, 27.6509: Train RMSE
+Iter: 150, 16.4614 :Train Loss, 0.1221:Train MAPE, 27.5891: Train RMSE
+Epoch: 113, Train Loss: 16.7971, Train MAPE: 0.1274, Train RMSE: 28.4457, Valid Loss: 18.6213, Valid MAPE: 0.1211, Valid RMSE: 29.5462, Training Time: 35.5333/epoch
+Iter: 000, 15.3146 :Train Loss, 0.1339:Train MAPE, 26.5269: Train RMSE
+Iter: 050, 15.6974 :Train Loss, 0.1310:Train MAPE, 26.7795: Train RMSE
+Iter: 100, 16.4905 :Train Loss, 0.1292:Train MAPE, 27.9959: Train RMSE
+Iter: 150, 16.2130 :Train Loss, 0.1398:Train MAPE, 28.0901: Train RMSE
+Epoch: 114, Train Loss: 16.7896, Train MAPE: 0.1272, Train RMSE: 28.4382, Valid Loss: 18.7769, Valid MAPE: 0.1217, Valid RMSE: 29.5928, Training Time: 34.9177/epoch
+Iter: 000, 15.3874 :Train Loss, 0.1360:Train MAPE, 26.7468: Train RMSE
+Iter: 050, 16.9683 :Train Loss, 0.1237:Train MAPE, 28.2411: Train RMSE
+Iter: 100, 17.5080 :Train Loss, 0.1244:Train MAPE, 29.4742: Train RMSE
+Iter: 150, 16.9850 :Train Loss, 0.1229:Train MAPE, 28.0906: Train RMSE
+Epoch: 115, Train Loss: 16.7807, Train MAPE: 0.1270, Train RMSE: 28.4314, Valid Loss: 18.6484, Valid MAPE: 0.1266, Valid RMSE: 29.5637, Training Time: 34.6590/epoch
+Iter: 000, 17.7020 :Train Loss, 0.1295:Train MAPE, 29.7819: Train RMSE
+Iter: 050, 15.3614 :Train Loss, 0.1424:Train MAPE, 26.9316: Train RMSE
+Iter: 100, 15.1570 :Train Loss, 0.1440:Train MAPE, 26.5610: Train RMSE
+Iter: 150, 16.9108 :Train Loss, 0.1196:Train MAPE, 28.2621: Train RMSE
+Epoch: 116, Train Loss: 16.7566, Train MAPE: 0.1270, Train RMSE: 28.3943, Valid Loss: 18.6364, Valid MAPE: 0.1224, Valid RMSE: 29.5941, Training Time: 35.4271/epoch
+Iter: 000, 16.5090 :Train Loss, 0.1392:Train MAPE, 29.1196: Train RMSE
+Iter: 050, 16.9463 :Train Loss, 0.1233:Train MAPE, 28.3907: Train RMSE
+Iter: 100, 17.1643 :Train Loss, 0.1161:Train MAPE, 28.2678: Train RMSE
+Iter: 150, 16.7715 :Train Loss, 0.1169:Train MAPE, 27.9711: Train RMSE
+Epoch: 117, Train Loss: 16.7362, Train MAPE: 0.1265, Train RMSE: 28.3804, Valid Loss: 18.7756, Valid MAPE: 0.1212, Valid RMSE: 29.5696, Training Time: 34.7404/epoch
+Iter: 000, 16.7070 :Train Loss, 0.1229:Train MAPE, 28.0137: Train RMSE
+Iter: 050, 16.4228 :Train Loss, 0.1279:Train MAPE, 28.0858: Train RMSE
+Iter: 100, 16.8701 :Train Loss, 0.1246:Train MAPE, 28.7634: Train RMSE
+Iter: 150, 16.2852 :Train Loss, 0.1339:Train MAPE, 27.9043: Train RMSE
+Epoch: 118, Train Loss: 16.7672, Train MAPE: 0.1279, Train RMSE: 28.3835, Valid Loss: 18.6496, Valid MAPE: 0.1273, Valid RMSE: 29.4846, Training Time: 35.0285/epoch
+Iter: 000, 16.8970 :Train Loss, 0.1253:Train MAPE, 27.8896: Train RMSE
+Iter: 050, 17.1270 :Train Loss, 0.1143:Train MAPE, 28.5011: Train RMSE
+Iter: 100, 17.1853 :Train Loss, 0.1208:Train MAPE, 27.9353: Train RMSE
+Iter: 150, 17.6136 :Train Loss, 0.1270:Train MAPE, 30.2015: Train RMSE
+Epoch: 119, Train Loss: 16.7129, Train MAPE: 0.1268, Train RMSE: 28.3352, Valid Loss: 18.5935, Valid MAPE: 0.1233, Valid RMSE: 29.4802, Training Time: 34.7498/epoch
+Iter: 000, 15.8173 :Train Loss, 0.1301:Train MAPE, 27.3205: Train RMSE
+Iter: 050, 17.0851 :Train Loss, 0.1258:Train MAPE, 29.2800: Train RMSE
+Iter: 100, 17.6394 :Train Loss, 0.1207:Train MAPE, 29.4439: Train RMSE
+Iter: 150, 15.9436 :Train Loss, 0.1308:Train MAPE, 27.0567: Train RMSE
+Epoch: 120, Train Loss: 16.7217, Train MAPE: 0.1266, Train RMSE: 28.3544, Valid Loss: 18.8598, Valid MAPE: 0.1210, Valid RMSE: 29.9309, Training Time: 35.5640/epoch
+Iter: 000, 16.7451 :Train Loss, 0.1186:Train MAPE, 28.1200: Train RMSE
+Iter: 050, 17.7052 :Train Loss, 0.1241:Train MAPE, 29.3719: Train RMSE
+Iter: 100, 17.3212 :Train Loss, 0.1256:Train MAPE, 29.3830: Train RMSE
+Iter: 150, 17.9704 :Train Loss, 0.1153:Train MAPE, 29.8840: Train RMSE
+Epoch: 121, Train Loss: 16.7374, Train MAPE: 0.1261, Train RMSE: 28.3858, Valid Loss: 18.7103, Valid MAPE: 0.1207, Valid RMSE: 29.6720, Training Time: 34.9413/epoch
+Iter: 000, 17.4263 :Train Loss, 0.1168:Train MAPE, 29.0246: Train RMSE
+Iter: 050, 15.4250 :Train Loss, 0.1319:Train MAPE, 26.9406: Train RMSE
+Iter: 100, 17.1339 :Train Loss, 0.1205:Train MAPE, 28.6956: Train RMSE
+Iter: 150, 16.7662 :Train Loss, 0.1207:Train MAPE, 28.2823: Train RMSE
+Epoch: 122, Train Loss: 16.7164, Train MAPE: 0.1258, Train RMSE: 28.3631, Valid Loss: 18.6506, Valid MAPE: 0.1203, Valid RMSE: 29.5444, Training Time: 35.1631/epoch
+Iter: 000, 15.9464 :Train Loss, 0.1279:Train MAPE, 27.2406: Train RMSE
+Iter: 050, 17.8009 :Train Loss, 0.1168:Train MAPE, 29.9776: Train RMSE
+Iter: 100, 15.7285 :Train Loss, 0.1330:Train MAPE, 26.6781: Train RMSE
+Iter: 150, 16.2063 :Train Loss, 0.1298:Train MAPE, 27.8162: Train RMSE
+Epoch: 123, Train Loss: 16.6862, Train MAPE: 0.1262, Train RMSE: 28.3076, Valid Loss: 18.7119, Valid MAPE: 0.1214, Valid RMSE: 29.5811, Training Time: 35.3798/epoch
+Iter: 000, 16.1798 :Train Loss, 0.1249:Train MAPE, 27.6887: Train RMSE
+Iter: 050, 17.4464 :Train Loss, 0.1201:Train MAPE, 29.1215: Train RMSE
+Iter: 100, 16.7873 :Train Loss, 0.1273:Train MAPE, 28.6050: Train RMSE
+Iter: 150, 17.5400 :Train Loss, 0.1108:Train MAPE, 28.7180: Train RMSE
+Epoch: 124, Train Loss: 16.7024, Train MAPE: 0.1263, Train RMSE: 28.3301, Valid Loss: 18.6493, Valid MAPE: 0.1263, Valid RMSE: 29.6748, Training Time: 34.6900/epoch
+Iter: 000, 16.1155 :Train Loss, 0.1367:Train MAPE, 27.3807: Train RMSE
+Iter: 050, 17.1329 :Train Loss, 0.1249:Train MAPE, 28.7446: Train RMSE
+Iter: 100, 15.6815 :Train Loss, 0.1261:Train MAPE, 26.9343: Train RMSE
+Iter: 150, 16.6456 :Train Loss, 0.1315:Train MAPE, 28.8957: Train RMSE
+Epoch: 125, Train Loss: 16.6921, Train MAPE: 0.1260, Train RMSE: 28.3233, Valid Loss: 18.7152, Valid MAPE: 0.1215, Valid RMSE: 29.6446, Training Time: 34.8408/epoch
+Iter: 000, 16.8706 :Train Loss, 0.1215:Train MAPE, 28.3087: Train RMSE
+Iter: 050, 15.6763 :Train Loss, 0.1386:Train MAPE, 27.7459: Train RMSE
+Iter: 100, 15.7129 :Train Loss, 0.1288:Train MAPE, 27.0784: Train RMSE
+Iter: 150, 16.3295 :Train Loss, 0.1348:Train MAPE, 28.1355: Train RMSE
+Epoch: 126, Train Loss: 16.6942, Train MAPE: 0.1259, Train RMSE: 28.3120, Valid Loss: 18.7504, Valid MAPE: 0.1262, Valid RMSE: 29.5824, Training Time: 34.8047/epoch
+Iter: 000, 17.4389 :Train Loss, 0.1320:Train MAPE, 30.0459: Train RMSE
+Iter: 050, 16.8636 :Train Loss, 0.1333:Train MAPE, 28.9006: Train RMSE
+Iter: 100, 15.9778 :Train Loss, 0.1306:Train MAPE, 27.2500: Train RMSE
+Iter: 150, 15.8772 :Train Loss, 0.1358:Train MAPE, 27.9574: Train RMSE
+Epoch: 127, Train Loss: 16.6632, Train MAPE: 0.1269, Train RMSE: 28.2635, Valid Loss: 18.5793, Valid MAPE: 0.1217, Valid RMSE: 29.6418, Training Time: 34.7119/epoch
+Iter: 000, 15.3603 :Train Loss, 0.1331:Train MAPE, 26.5315: Train RMSE
+Iter: 050, 17.5344 :Train Loss, 0.1198:Train MAPE, 28.9801: Train RMSE
+Iter: 100, 18.4677 :Train Loss, 0.1176:Train MAPE, 30.8027: Train RMSE
+Iter: 150, 17.3996 :Train Loss, 0.1143:Train MAPE, 28.4155: Train RMSE
+Epoch: 128, Train Loss: 16.6675, Train MAPE: 0.1259, Train RMSE: 28.2791, Valid Loss: 18.7630, Valid MAPE: 0.1228, Valid RMSE: 29.6858, Training Time: 34.8271/epoch
+Iter: 000, 16.7854 :Train Loss, 0.1211:Train MAPE, 28.3206: Train RMSE
+Iter: 050, 15.0768 :Train Loss, 0.1436:Train MAPE, 26.1456: Train RMSE
+Iter: 100, 17.2433 :Train Loss, 0.1273:Train MAPE, 29.4905: Train RMSE
+Iter: 150, 17.0225 :Train Loss, 0.1283:Train MAPE, 28.9984: Train RMSE
+Epoch: 129, Train Loss: 16.6819, Train MAPE: 0.1285, Train RMSE: 28.2351, Valid Loss: 18.7308, Valid MAPE: 0.1206, Valid RMSE: 29.5996, Training Time: 34.9258/epoch
+Iter: 000, 16.6591 :Train Loss, 0.1209:Train MAPE, 28.2438: Train RMSE
+Iter: 050, 17.0351 :Train Loss, 0.1208:Train MAPE, 28.7902: Train RMSE
+Iter: 100, 15.2726 :Train Loss, 0.1388:Train MAPE, 26.7803: Train RMSE
+Iter: 150, 17.8132 :Train Loss, 0.1169:Train MAPE, 29.6911: Train RMSE
+Epoch: 130, Train Loss: 16.6888, Train MAPE: 0.1261, Train RMSE: 28.3001, Valid Loss: 18.8017, Valid MAPE: 0.1245, Valid RMSE: 29.6112, Training Time: 34.7894/epoch
+Iter: 000, 17.9602 :Train Loss, 0.1233:Train MAPE, 30.1138: Train RMSE
+Iter: 050, 17.3809 :Train Loss, 0.1251:Train MAPE, 29.2399: Train RMSE
+Iter: 100, 16.5460 :Train Loss, 0.1253:Train MAPE, 27.8932: Train RMSE
+Iter: 150, 16.2308 :Train Loss, 0.1247:Train MAPE, 27.5792: Train RMSE
+Epoch: 131, Train Loss: 16.6595, Train MAPE: 0.1254, Train RMSE: 28.2819, Valid Loss: 18.6732, Valid MAPE: 0.1212, Valid RMSE: 29.6709, Training Time: 34.9458/epoch
+Iter: 000, 17.2844 :Train Loss, 0.1290:Train MAPE, 29.9377: Train RMSE
+Iter: 050, 16.3560 :Train Loss, 0.1280:Train MAPE, 28.0125: Train RMSE
+Iter: 100, 16.7240 :Train Loss, 0.1226:Train MAPE, 28.4979: Train RMSE
+Iter: 150, 16.0421 :Train Loss, 0.1278:Train MAPE, 27.4486: Train RMSE
+Epoch: 132, Train Loss: 16.6347, Train MAPE: 0.1254, Train RMSE: 28.2439, Valid Loss: 18.6923, Valid MAPE: 0.1212, Valid RMSE: 29.5547, Training Time: 35.0115/epoch
+Iter: 000, 16.8737 :Train Loss, 0.1214:Train MAPE, 28.3667: Train RMSE
+Iter: 050, 16.8257 :Train Loss, 0.1213:Train MAPE, 28.2150: Train RMSE
+Iter: 100, 18.1694 :Train Loss, 0.1170:Train MAPE, 29.9023: Train RMSE
+Iter: 150, 16.2241 :Train Loss, 0.1203:Train MAPE, 27.3013: Train RMSE
+Epoch: 133, Train Loss: 16.6154, Train MAPE: 0.1252, Train RMSE: 28.2142, Valid Loss: 18.7387, Valid MAPE: 0.1207, Valid RMSE: 29.6753, Training Time: 34.6991/epoch
+Iter: 000, 16.6228 :Train Loss, 0.1231:Train MAPE, 28.4928: Train RMSE
+Iter: 050, 16.2013 :Train Loss, 0.1220:Train MAPE, 26.7791: Train RMSE
+Iter: 100, 17.1799 :Train Loss, 0.1231:Train MAPE, 29.1015: Train RMSE
+Iter: 150, 17.0224 :Train Loss, 0.1218:Train MAPE, 28.4129: Train RMSE
+Epoch: 134, Train Loss: 16.6092, Train MAPE: 0.1250, Train RMSE: 28.2064, Valid Loss: 18.7467, Valid MAPE: 0.1209, Valid RMSE: 29.7905, Training Time: 34.6164/epoch
+Iter: 000, 15.8386 :Train Loss, 0.1266:Train MAPE, 27.0883: Train RMSE
+Iter: 050, 17.1301 :Train Loss, 0.1204:Train MAPE, 29.0736: Train RMSE
+Iter: 100, 17.4792 :Train Loss, 0.1148:Train MAPE, 29.0814: Train RMSE
+Iter: 150, 17.6445 :Train Loss, 0.1160:Train MAPE, 29.4697: Train RMSE
+Epoch: 135, Train Loss: 16.6506, Train MAPE: 0.1266, Train RMSE: 28.2343, Valid Loss: 18.6809, Valid MAPE: 0.1212, Valid RMSE: 29.6525, Training Time: 34.5902/epoch
+Iter: 000, 17.7326 :Train Loss, 0.1102:Train MAPE, 29.0134: Train RMSE
+Iter: 050, 16.9025 :Train Loss, 0.1197:Train MAPE, 28.4560: Train RMSE
+Iter: 100, 17.2904 :Train Loss, 0.1183:Train MAPE, 28.4507: Train RMSE
+Iter: 150, 16.6310 :Train Loss, 0.1256:Train MAPE, 29.3075: Train RMSE
+Epoch: 136, Train Loss: 16.6387, Train MAPE: 0.1253, Train RMSE: 28.2474, Valid Loss: 18.5851, Valid MAPE: 0.1207, Valid RMSE: 29.5451, Training Time: 34.6057/epoch
+Iter: 000, 18.1555 :Train Loss, 0.1115:Train MAPE, 29.7905: Train RMSE
+Iter: 050, 15.1100 :Train Loss, 0.1318:Train MAPE, 26.0399: Train RMSE
+Iter: 100, 15.9750 :Train Loss, 0.1280:Train MAPE, 27.1681: Train RMSE
+Iter: 150, 16.4024 :Train Loss, 0.1205:Train MAPE, 27.1982: Train RMSE
+Epoch: 137, Train Loss: 16.6378, Train MAPE: 0.1253, Train RMSE: 28.2391, Valid Loss: 18.7560, Valid MAPE: 0.1206, Valid RMSE: 29.7871, Training Time: 34.6322/epoch
+Iter: 000, 16.0356 :Train Loss, 0.1239:Train MAPE, 27.1874: Train RMSE
+Iter: 050, 15.1043 :Train Loss, 0.1343:Train MAPE, 26.0312: Train RMSE
+Iter: 100, 16.0454 :Train Loss, 0.1321:Train MAPE, 27.9366: Train RMSE
+Iter: 150, 16.3359 :Train Loss, 0.1312:Train MAPE, 28.2483: Train RMSE
+Epoch: 138, Train Loss: 16.6096, Train MAPE: 0.1257, Train RMSE: 28.1870, Valid Loss: 18.6462, Valid MAPE: 0.1243, Valid RMSE: 29.4725, Training Time: 34.6634/epoch
+Iter: 000, 16.5779 :Train Loss, 0.1292:Train MAPE, 28.2361: Train RMSE
+Iter: 050, 17.5655 :Train Loss, 0.1175:Train MAPE, 29.0384: Train RMSE
+Iter: 100, 15.8671 :Train Loss, 0.1301:Train MAPE, 27.4401: Train RMSE
+Iter: 150, 16.4392 :Train Loss, 0.1335:Train MAPE, 28.1732: Train RMSE
+Epoch: 139, Train Loss: 16.5934, Train MAPE: 0.1260, Train RMSE: 28.1710, Valid Loss: 18.7261, Valid MAPE: 0.1226, Valid RMSE: 29.7017, Training Time: 34.6366/epoch
+Iter: 000, 17.1263 :Train Loss, 0.1211:Train MAPE, 29.1551: Train RMSE
+Iter: 050, 16.2125 :Train Loss, 0.1361:Train MAPE, 28.0195: Train RMSE
+Iter: 100, 15.2999 :Train Loss, 0.1295:Train MAPE, 26.0599: Train RMSE
+Iter: 150, 18.5572 :Train Loss, 0.1143:Train MAPE, 30.5141: Train RMSE
+Epoch: 140, Train Loss: 16.6455, Train MAPE: 0.1257, Train RMSE: 28.2285, Valid Loss: 18.7498, Valid MAPE: 0.1219, Valid RMSE: 29.7593, Training Time: 34.5354/epoch
+Iter: 000, 16.5284 :Train Loss, 0.1260:Train MAPE, 28.1711: Train RMSE
+Iter: 050, 15.9724 :Train Loss, 0.1270:Train MAPE, 27.3138: Train RMSE
+Iter: 100, 16.9597 :Train Loss, 0.1270:Train MAPE, 29.5855: Train RMSE
+Iter: 150, 16.4237 :Train Loss, 0.1237:Train MAPE, 27.3785: Train RMSE
+Epoch: 141, Train Loss: 16.5951, Train MAPE: 0.1250, Train RMSE: 28.1900, Valid Loss: 18.6406, Valid MAPE: 0.1203, Valid RMSE: 29.6763, Training Time: 34.6871/epoch
+Iter: 000, 16.9154 :Train Loss, 0.1238:Train MAPE, 28.8099: Train RMSE
+Iter: 050, 17.2990 :Train Loss, 0.1187:Train MAPE, 28.6490: Train RMSE
+Iter: 100, 18.1727 :Train Loss, 0.1146:Train MAPE, 29.9429: Train RMSE
+Iter: 150, 17.0047 :Train Loss, 0.1188:Train MAPE, 28.5738: Train RMSE
+Epoch: 142, Train Loss: 16.5914, Train MAPE: 0.1261, Train RMSE: 28.1590, Valid Loss: 18.6872, Valid MAPE: 0.1195, Valid RMSE: 29.5344, Training Time: 35.3924/epoch
+Iter: 000, 17.2306 :Train Loss, 0.1178:Train MAPE, 28.8298: Train RMSE
+Iter: 050, 17.5211 :Train Loss, 0.1244:Train MAPE, 29.6116: Train RMSE
+Iter: 100, 17.6560 :Train Loss, 0.1104:Train MAPE, 29.3135: Train RMSE
+Iter: 150, 15.6629 :Train Loss, 0.1296:Train MAPE, 27.0366: Train RMSE
+Epoch: 143, Train Loss: 16.5422, Train MAPE: 0.1251, Train RMSE: 28.0985, Valid Loss: 18.6419, Valid MAPE: 0.1214, Valid RMSE: 29.6552, Training Time: 34.4766/epoch
+Iter: 000, 17.1084 :Train Loss, 0.1150:Train MAPE, 28.7460: Train RMSE
+Iter: 050, 14.6365 :Train Loss, 0.1426:Train MAPE, 25.8788: Train RMSE
+Iter: 100, 18.2098 :Train Loss, 0.1120:Train MAPE, 30.1473: Train RMSE
+Iter: 150, 16.6671 :Train Loss, 0.1246:Train MAPE, 28.4943: Train RMSE
+Epoch: 144, Train Loss: 16.5908, Train MAPE: 0.1252, Train RMSE: 28.1723, Valid Loss: 18.7201, Valid MAPE: 0.1236, Valid RMSE: 29.6824, Training Time: 34.9244/epoch
+Iter: 000, 18.0051 :Train Loss, 0.1080:Train MAPE, 29.6529: Train RMSE
+Iter: 050, 15.3255 :Train Loss, 0.1275:Train MAPE, 26.1579: Train RMSE
+Iter: 100, 17.0866 :Train Loss, 0.1172:Train MAPE, 28.2096: Train RMSE
+Iter: 150, 16.6223 :Train Loss, 0.1265:Train MAPE, 27.4429: Train RMSE
+Epoch: 145, Train Loss: 16.5668, Train MAPE: 0.1269, Train RMSE: 28.1101, Valid Loss: 18.6484, Valid MAPE: 0.1216, Valid RMSE: 29.6466, Training Time: 35.0443/epoch
+Iter: 000, 17.4990 :Train Loss, 0.1123:Train MAPE, 28.7894: Train RMSE
+Iter: 050, 16.8386 :Train Loss, 0.1221:Train MAPE, 29.1703: Train RMSE
+Iter: 100, 16.4353 :Train Loss, 0.1381:Train MAPE, 27.9807: Train RMSE
+Iter: 150, 17.4724 :Train Loss, 0.1163:Train MAPE, 29.0879: Train RMSE
+Epoch: 146, Train Loss: 16.5850, Train MAPE: 0.1255, Train RMSE: 28.1477, Valid Loss: 18.6414, Valid MAPE: 0.1197, Valid RMSE: 29.6111, Training Time: 36.0369/epoch
+Iter: 000, 16.9438 :Train Loss, 0.1165:Train MAPE, 28.6642: Train RMSE
+Iter: 050, 16.9540 :Train Loss, 0.1181:Train MAPE, 28.5453: Train RMSE
+Iter: 100, 17.3000 :Train Loss, 0.1239:Train MAPE, 29.4956: Train RMSE
+Iter: 150, 15.8705 :Train Loss, 0.1233:Train MAPE, 26.8229: Train RMSE
+Epoch: 147, Train Loss: 16.5500, Train MAPE: 0.1247, Train RMSE: 28.1277, Valid Loss: 18.5988, Valid MAPE: 0.1210, Valid RMSE: 29.5036, Training Time: 36.9200/epoch
+Iter: 000, 16.1050 :Train Loss, 0.1405:Train MAPE, 28.7137: Train RMSE
+Iter: 050, 17.0609 :Train Loss, 0.1340:Train MAPE, 28.7876: Train RMSE
+Iter: 100, 15.8737 :Train Loss, 0.1252:Train MAPE, 27.2241: Train RMSE
+Iter: 150, 16.9003 :Train Loss, 0.1171:Train MAPE, 28.1233: Train RMSE
+Epoch: 148, Train Loss: 16.5687, Train MAPE: 0.1256, Train RMSE: 28.1305, Valid Loss: 18.5573, Valid MAPE: 0.1194, Valid RMSE: 29.4830, Training Time: 35.9657/epoch
+Iter: 000, 15.6178 :Train Loss, 0.1300:Train MAPE, 27.4613: Train RMSE
+Iter: 050, 16.0879 :Train Loss, 0.1325:Train MAPE, 27.4690: Train RMSE
+Iter: 100, 16.3093 :Train Loss, 0.1164:Train MAPE, 27.0005: Train RMSE
+Iter: 150, 17.0638 :Train Loss, 0.1134:Train MAPE, 27.9377: Train RMSE
+Epoch: 149, Train Loss: 16.5528, Train MAPE: 0.1246, Train RMSE: 28.1314, Valid Loss: 18.7333, Valid MAPE: 0.1213, Valid RMSE: 29.5747, Training Time: 35.1256/epoch
+Iter: 000, 15.6736 :Train Loss, 0.1262:Train MAPE, 26.5698: Train RMSE
+Iter: 050, 15.5368 :Train Loss, 0.1327:Train MAPE, 26.8471: Train RMSE
+Iter: 100, 17.2305 :Train Loss, 0.1201:Train MAPE, 28.6253: Train RMSE
+Iter: 150, 16.6326 :Train Loss, 0.1219:Train MAPE, 28.6985: Train RMSE
+Epoch: 150, Train Loss: 16.5415, Train MAPE: 0.1246, Train RMSE: 28.1236, Valid Loss: 18.7164, Valid MAPE: 0.1238, Valid RMSE: 29.7113, Training Time: 35.5641/epoch
+Iter: 000, 16.2963 :Train Loss, 0.1308:Train MAPE, 28.1590: Train RMSE
+Iter: 050, 16.2515 :Train Loss, 0.1234:Train MAPE, 27.2872: Train RMSE
+Iter: 100, 16.4902 :Train Loss, 0.1179:Train MAPE, 27.9482: Train RMSE
+Iter: 150, 16.4826 :Train Loss, 0.1287:Train MAPE, 28.2361: Train RMSE
+Epoch: 151, Train Loss: 16.5222, Train MAPE: 0.1256, Train RMSE: 28.0656, Valid Loss: 18.7528, Valid MAPE: 0.1254, Valid RMSE: 29.6956, Training Time: 34.5626/epoch
+Iter: 000, 16.8617 :Train Loss, 0.1254:Train MAPE, 28.3345: Train RMSE
+Iter: 050, 16.6832 :Train Loss, 0.1227:Train MAPE, 28.4377: Train RMSE
+Iter: 100, 17.6302 :Train Loss, 0.1215:Train MAPE, 29.4471: Train RMSE
+Iter: 150, 17.4518 :Train Loss, 0.1213:Train MAPE, 29.3078: Train RMSE
+Epoch: 152, Train Loss: 16.5350, Train MAPE: 0.1257, Train RMSE: 28.0781, Valid Loss: 18.6607, Valid MAPE: 0.1254, Valid RMSE: 29.6074, Training Time: 34.4274/epoch
+Iter: 000, 16.5145 :Train Loss, 0.1227:Train MAPE, 27.6024: Train RMSE
+Iter: 050, 15.6523 :Train Loss, 0.1369:Train MAPE, 26.4182: Train RMSE
+Iter: 100, 14.7827 :Train Loss, 0.1468:Train MAPE, 26.1884: Train RMSE
+Iter: 150, 15.3683 :Train Loss, 0.1231:Train MAPE, 26.3431: Train RMSE
+Epoch: 153, Train Loss: 16.5273, Train MAPE: 0.1249, Train RMSE: 28.0895, Valid Loss: 18.6520, Valid MAPE: 0.1205, Valid RMSE: 29.5975, Training Time: 34.3843/epoch
+Iter: 000, 16.2239 :Train Loss, 0.1174:Train MAPE, 27.2777: Train RMSE
+Iter: 050, 16.1660 :Train Loss, 0.1251:Train MAPE, 27.1632: Train RMSE
+Iter: 100, 17.5982 :Train Loss, 0.1173:Train MAPE, 29.8539: Train RMSE
+Iter: 150, 17.6181 :Train Loss, 0.1173:Train MAPE, 29.2053: Train RMSE
+Epoch: 154, Train Loss: 16.5201, Train MAPE: 0.1245, Train RMSE: 28.0851, Valid Loss: 18.6957, Valid MAPE: 0.1250, Valid RMSE: 29.7477, Training Time: 34.4425/epoch
+Iter: 000, 16.7151 :Train Loss, 0.1266:Train MAPE, 28.3368: Train RMSE
+Iter: 050, 17.3192 :Train Loss, 0.1193:Train MAPE, 29.2491: Train RMSE
+Iter: 100, 15.5892 :Train Loss, 0.1335:Train MAPE, 27.1949: Train RMSE
+Iter: 150, 17.5647 :Train Loss, 0.1168:Train MAPE, 29.3622: Train RMSE
+Epoch: 155, Train Loss: 16.5232, Train MAPE: 0.1247, Train RMSE: 28.0887, Valid Loss: 18.6642, Valid MAPE: 0.1197, Valid RMSE: 29.5900, Training Time: 34.3357/epoch
+Iter: 000, 16.2218 :Train Loss, 0.1247:Train MAPE, 27.8183: Train RMSE
+Iter: 050, 16.1874 :Train Loss, 0.1294:Train MAPE, 27.2977: Train RMSE
+Iter: 100, 16.2027 :Train Loss, 0.1257:Train MAPE, 28.0707: Train RMSE
+Iter: 150, 16.2202 :Train Loss, 0.1224:Train MAPE, 27.1586: Train RMSE
+Epoch: 156, Train Loss: 16.5044, Train MAPE: 0.1253, Train RMSE: 28.0409, Valid Loss: 18.6561, Valid MAPE: 0.1217, Valid RMSE: 29.6435, Training Time: 34.3842/epoch
+Iter: 000, 17.5828 :Train Loss, 0.1189:Train MAPE, 29.9627: Train RMSE
+Iter: 050, 16.3590 :Train Loss, 0.1272:Train MAPE, 28.2398: Train RMSE
+Iter: 100, 17.3208 :Train Loss, 0.1315:Train MAPE, 29.0209: Train RMSE
+Iter: 150, 17.6186 :Train Loss, 0.1319:Train MAPE, 29.5491: Train RMSE
+Epoch: 157, Train Loss: 16.5408, Train MAPE: 0.1264, Train RMSE: 28.0599, Valid Loss: 18.8830, Valid MAPE: 0.1251, Valid RMSE: 29.9602, Training Time: 34.4076/epoch
+Iter: 000, 16.5274 :Train Loss, 0.1302:Train MAPE, 28.2560: Train RMSE
+Iter: 050, 15.7209 :Train Loss, 0.1248:Train MAPE, 26.8188: Train RMSE
+Iter: 100, 16.7235 :Train Loss, 0.1266:Train MAPE, 28.5111: Train RMSE
+Iter: 150, 15.7005 :Train Loss, 0.1329:Train MAPE, 27.2833: Train RMSE
+Epoch: 158, Train Loss: 16.5197, Train MAPE: 0.1258, Train RMSE: 28.0521, Valid Loss: 18.8382, Valid MAPE: 0.1255, Valid RMSE: 29.7285, Training Time: 34.4449/epoch
+Iter: 000, 16.9747 :Train Loss, 0.1190:Train MAPE, 27.9297: Train RMSE
+Iter: 050, 16.1643 :Train Loss, 0.1269:Train MAPE, 28.2071: Train RMSE
+Iter: 100, 16.3750 :Train Loss, 0.1273:Train MAPE, 27.9768: Train RMSE
+Iter: 150, 16.9080 :Train Loss, 0.1154:Train MAPE, 28.1505: Train RMSE
+Epoch: 159, Train Loss: 16.5050, Train MAPE: 0.1247, Train RMSE: 28.0592, Valid Loss: 18.5746, Valid MAPE: 0.1204, Valid RMSE: 29.5087, Training Time: 34.3801/epoch
+Iter: 000, 16.2099 :Train Loss, 0.1245:Train MAPE, 27.7702: Train RMSE
+Iter: 050, 15.0358 :Train Loss, 0.1291:Train MAPE, 25.8231: Train RMSE
+Iter: 100, 15.9244 :Train Loss, 0.1264:Train MAPE, 27.3444: Train RMSE
+Iter: 150, 16.2798 :Train Loss, 0.1402:Train MAPE, 28.1612: Train RMSE
+Epoch: 160, Train Loss: 16.5105, Train MAPE: 0.1247, Train RMSE: 28.0689, Valid Loss: 18.6589, Valid MAPE: 0.1217, Valid RMSE: 29.5481, Training Time: 34.3566/epoch
+Iter: 000, 16.0371 :Train Loss, 0.1285:Train MAPE, 27.3769: Train RMSE
+Iter: 050, 14.5929 :Train Loss, 0.1329:Train MAPE, 24.8589: Train RMSE
+Iter: 100, 17.3581 :Train Loss, 0.1199:Train MAPE, 29.6702: Train RMSE
+Iter: 150, 16.0305 :Train Loss, 0.1282:Train MAPE, 27.4425: Train RMSE
+Epoch: 161, Train Loss: 16.5455, Train MAPE: 0.1253, Train RMSE: 28.1000, Valid Loss: 18.6906, Valid MAPE: 0.1218, Valid RMSE: 29.5768, Training Time: 35.6500/epoch
+Iter: 000, 15.3863 :Train Loss, 0.1326:Train MAPE, 26.9116: Train RMSE
+Iter: 050, 15.8899 :Train Loss, 0.1395:Train MAPE, 27.3880: Train RMSE
+Iter: 100, 16.1411 :Train Loss, 0.1316:Train MAPE, 28.0846: Train RMSE
+Iter: 150, 17.0622 :Train Loss, 0.1190:Train MAPE, 28.7759: Train RMSE
+Epoch: 162, Train Loss: 16.5056, Train MAPE: 0.1244, Train RMSE: 28.0571, Valid Loss: 18.6193, Valid MAPE: 0.1242, Valid RMSE: 29.6016, Training Time: 35.0434/epoch
+Iter: 000, 16.0334 :Train Loss, 0.1246:Train MAPE, 26.9596: Train RMSE
+Iter: 050, 16.9241 :Train Loss, 0.1253:Train MAPE, 29.3931: Train RMSE
+Iter: 100, 17.3459 :Train Loss, 0.1134:Train MAPE, 28.8523: Train RMSE
+Iter: 150, 15.9209 :Train Loss, 0.1233:Train MAPE, 27.2983: Train RMSE
+Epoch: 163, Train Loss: 16.4776, Train MAPE: 0.1246, Train RMSE: 28.0124, Valid Loss: 18.6691, Valid MAPE: 0.1217, Valid RMSE: 29.6375, Training Time: 34.2559/epoch
+Iter: 000, 15.6685 :Train Loss, 0.1284:Train MAPE, 27.2211: Train RMSE
+Iter: 050, 15.5156 :Train Loss, 0.1293:Train MAPE, 26.7738: Train RMSE
+Iter: 100, 16.7437 :Train Loss, 0.1183:Train MAPE, 28.3633: Train RMSE
+Iter: 150, 15.5872 :Train Loss, 0.1283:Train MAPE, 26.9432: Train RMSE
+Epoch: 164, Train Loss: 16.4634, Train MAPE: 0.1238, Train RMSE: 28.0058, Valid Loss: 18.6597, Valid MAPE: 0.1237, Valid RMSE: 29.5200, Training Time: 34.2663/epoch
+Iter: 000, 16.7184 :Train Loss, 0.1264:Train MAPE, 28.1017: Train RMSE
+Iter: 050, 17.8079 :Train Loss, 0.1192:Train MAPE, 30.1108: Train RMSE
+Iter: 100, 16.9079 :Train Loss, 0.1227:Train MAPE, 28.8003: Train RMSE
+Iter: 150, 16.6263 :Train Loss, 0.1266:Train MAPE, 28.2250: Train RMSE
+Epoch: 165, Train Loss: 16.4876, Train MAPE: 0.1243, Train RMSE: 28.0267, Valid Loss: 18.6688, Valid MAPE: 0.1203, Valid RMSE: 29.6452, Training Time: 34.2871/epoch
+Iter: 000, 17.3149 :Train Loss, 0.1116:Train MAPE, 28.6536: Train RMSE
+Iter: 050, 15.8708 :Train Loss, 0.1197:Train MAPE, 26.7777: Train RMSE
+Iter: 100, 17.3654 :Train Loss, 0.1184:Train MAPE, 29.0489: Train RMSE
+Iter: 150, 16.9652 :Train Loss, 0.1230:Train MAPE, 29.1253: Train RMSE
+Epoch: 166, Train Loss: 16.4789, Train MAPE: 0.1244, Train RMSE: 28.0139, Valid Loss: 18.7527, Valid MAPE: 0.1218, Valid RMSE: 29.6105, Training Time: 34.2713/epoch
+Iter: 000, 15.7431 :Train Loss, 0.1287:Train MAPE, 27.1704: Train RMSE
+Iter: 050, 16.6244 :Train Loss, 0.1164:Train MAPE, 27.8299: Train RMSE
+Iter: 100, 15.6235 :Train Loss, 0.1215:Train MAPE, 26.6949: Train RMSE
+Iter: 150, 17.1532 :Train Loss, 0.1202:Train MAPE, 28.8565: Train RMSE
+Epoch: 167, Train Loss: 16.4526, Train MAPE: 0.1238, Train RMSE: 28.0072, Valid Loss: 18.5890, Valid MAPE: 0.1237, Valid RMSE: 29.6217, Training Time: 34.2604/epoch
+Iter: 000, 17.0306 :Train Loss, 0.1262:Train MAPE, 28.7978: Train RMSE
+Iter: 050, 15.3682 :Train Loss, 0.1331:Train MAPE, 26.9008: Train RMSE
+Iter: 100, 16.6445 :Train Loss, 0.1213:Train MAPE, 27.8302: Train RMSE
+Iter: 150, 18.2270 :Train Loss, 0.1202:Train MAPE, 31.0132: Train RMSE
+Epoch: 168, Train Loss: 16.4353, Train MAPE: 0.1239, Train RMSE: 27.9686, Valid Loss: 18.6968, Valid MAPE: 0.1200, Valid RMSE: 29.5757, Training Time: 34.2752/epoch
+Iter: 000, 16.4030 :Train Loss, 0.1206:Train MAPE, 27.7149: Train RMSE
+Iter: 050, 15.4289 :Train Loss, 0.1261:Train MAPE, 26.3773: Train RMSE
+Iter: 100, 15.3551 :Train Loss, 0.1315:Train MAPE, 26.6425: Train RMSE
+Iter: 150, 16.1751 :Train Loss, 0.1243:Train MAPE, 27.8172: Train RMSE
+Epoch: 169, Train Loss: 16.4345, Train MAPE: 0.1236, Train RMSE: 27.9714, Valid Loss: 18.6291, Valid MAPE: 0.1205, Valid RMSE: 29.5972, Training Time: 34.2705/epoch
+Iter: 000, 17.3091 :Train Loss, 0.1227:Train MAPE, 29.4579: Train RMSE
+Iter: 050, 17.2812 :Train Loss, 0.1260:Train MAPE, 29.7033: Train RMSE
+Iter: 100, 15.1945 :Train Loss, 0.1263:Train MAPE, 26.1007: Train RMSE
+Iter: 150, 17.1954 :Train Loss, 0.1180:Train MAPE, 29.3568: Train RMSE
+Epoch: 170, Train Loss: 16.2764, Train MAPE: 0.1220, Train RMSE: 27.8113, Valid Loss: 18.5154, Valid MAPE: 0.1187, Valid RMSE: 29.5223, Training Time: 34.2503/epoch
+Iter: 000, 16.8750 :Train Loss, 0.1159:Train MAPE, 28.4263: Train RMSE
+Iter: 050, 16.2073 :Train Loss, 0.1218:Train MAPE, 27.8468: Train RMSE
+Iter: 100, 16.6980 :Train Loss, 0.1163:Train MAPE, 28.5232: Train RMSE
+Iter: 150, 16.8921 :Train Loss, 0.1155:Train MAPE, 27.9178: Train RMSE
+Epoch: 171, Train Loss: 16.2694, Train MAPE: 0.1216, Train RMSE: 27.8021, Valid Loss: 18.5476, Valid MAPE: 0.1195, Valid RMSE: 29.5944, Training Time: 34.2704/epoch
+Iter: 000, 16.8470 :Train Loss, 0.1140:Train MAPE, 28.9047: Train RMSE
+Iter: 050, 16.4967 :Train Loss, 0.1260:Train MAPE, 28.4992: Train RMSE
+Iter: 100, 15.8693 :Train Loss, 0.1242:Train MAPE, 27.3524: Train RMSE
+Iter: 150, 16.3675 :Train Loss, 0.1199:Train MAPE, 27.7176: Train RMSE
+Epoch: 172, Train Loss: 16.2567, Train MAPE: 0.1215, Train RMSE: 27.7834, Valid Loss: 18.5597, Valid MAPE: 0.1189, Valid RMSE: 29.5455, Training Time: 34.2612/epoch
+Iter: 000, 15.0366 :Train Loss, 0.1236:Train MAPE, 25.8897: Train RMSE
+Iter: 050, 15.9977 :Train Loss, 0.1227:Train MAPE, 27.4228: Train RMSE
+Iter: 100, 16.0790 :Train Loss, 0.1184:Train MAPE, 27.4153: Train RMSE
+Iter: 150, 15.8927 :Train Loss, 0.1176:Train MAPE, 26.7971: Train RMSE
+Epoch: 173, Train Loss: 16.2374, Train MAPE: 0.1216, Train RMSE: 27.7634, Valid Loss: 18.5199, Valid MAPE: 0.1190, Valid RMSE: 29.5632, Training Time: 34.2920/epoch
+Iter: 000, 16.4973 :Train Loss, 0.1202:Train MAPE, 28.0577: Train RMSE
+Iter: 050, 16.9404 :Train Loss, 0.1083:Train MAPE, 28.1285: Train RMSE
+Iter: 100, 16.1695 :Train Loss, 0.1214:Train MAPE, 27.2377: Train RMSE
+Iter: 150, 16.0598 :Train Loss, 0.1195:Train MAPE, 27.4747: Train RMSE
+Epoch: 174, Train Loss: 16.2453, Train MAPE: 0.1216, Train RMSE: 27.7673, Valid Loss: 18.6075, Valid MAPE: 0.1198, Valid RMSE: 29.5775, Training Time: 34.3024/epoch
+Iter: 000, 17.3466 :Train Loss, 0.1218:Train MAPE, 30.3624: Train RMSE
+Iter: 050, 16.6834 :Train Loss, 0.1198:Train MAPE, 28.4008: Train RMSE
+Iter: 100, 16.7229 :Train Loss, 0.1142:Train MAPE, 28.2817: Train RMSE
+Iter: 150, 16.1003 :Train Loss, 0.1256:Train MAPE, 27.6540: Train RMSE
+Epoch: 175, Train Loss: 16.2356, Train MAPE: 0.1216, Train RMSE: 27.7565, Valid Loss: 18.4938, Valid MAPE: 0.1196, Valid RMSE: 29.5416, Training Time: 34.2993/epoch
+Iter: 000, 14.8974 :Train Loss, 0.1383:Train MAPE, 27.3513: Train RMSE
+Iter: 050, 13.5763 :Train Loss, 0.1422:Train MAPE, 24.2604: Train RMSE
+Iter: 100, 15.7832 :Train Loss, 0.1236:Train MAPE, 27.0382: Train RMSE
+Iter: 150, 16.7436 :Train Loss, 0.1141:Train MAPE, 28.2965: Train RMSE
+Epoch: 176, Train Loss: 16.2231, Train MAPE: 0.1214, Train RMSE: 27.7421, Valid Loss: 18.5214, Valid MAPE: 0.1192, Valid RMSE: 29.5382, Training Time: 34.2802/epoch
+Iter: 000, 16.0837 :Train Loss, 0.1295:Train MAPE, 27.9656: Train RMSE
+Iter: 050, 14.7709 :Train Loss, 0.1318:Train MAPE, 26.5526: Train RMSE
+Iter: 100, 16.2588 :Train Loss, 0.1194:Train MAPE, 27.4761: Train RMSE
+Iter: 150, 17.8489 :Train Loss, 0.1090:Train MAPE, 29.7273: Train RMSE
+Epoch: 177, Train Loss: 16.2257, Train MAPE: 0.1213, Train RMSE: 27.7518, Valid Loss: 18.5271, Valid MAPE: 0.1193, Valid RMSE: 29.5208, Training Time: 34.2697/epoch
+Iter: 000, 15.3327 :Train Loss, 0.1282:Train MAPE, 26.5717: Train RMSE
+Iter: 050, 17.1485 :Train Loss, 0.1141:Train MAPE, 28.5849: Train RMSE
+Iter: 100, 16.6959 :Train Loss, 0.1184:Train MAPE, 28.3411: Train RMSE
+Iter: 150, 17.1266 :Train Loss, 0.1166:Train MAPE, 29.0596: Train RMSE
+Epoch: 178, Train Loss: 16.2191, Train MAPE: 0.1214, Train RMSE: 27.7418, Valid Loss: 18.5469, Valid MAPE: 0.1193, Valid RMSE: 29.5756, Training Time: 34.2743/epoch
+Iter: 000, 16.9366 :Train Loss, 0.1140:Train MAPE, 28.4810: Train RMSE
+Iter: 050, 15.4689 :Train Loss, 0.1257:Train MAPE, 26.8238: Train RMSE
+Iter: 100, 15.9685 :Train Loss, 0.1181:Train MAPE, 27.1667: Train RMSE
+Iter: 150, 16.1911 :Train Loss, 0.1229:Train MAPE, 27.7603: Train RMSE
+Epoch: 179, Train Loss: 16.2235, Train MAPE: 0.1213, Train RMSE: 27.7426, Valid Loss: 18.5452, Valid MAPE: 0.1192, Valid RMSE: 29.5547, Training Time: 34.2535/epoch
+Iter: 000, 16.0939 :Train Loss, 0.1219:Train MAPE, 27.8620: Train RMSE
+Iter: 050, 15.3158 :Train Loss, 0.1247:Train MAPE, 26.4611: Train RMSE
+Iter: 100, 15.6351 :Train Loss, 0.1293:Train MAPE, 27.4259: Train RMSE
+Iter: 150, 15.5645 :Train Loss, 0.1235:Train MAPE, 26.7535: Train RMSE
+Epoch: 180, Train Loss: 16.2108, Train MAPE: 0.1214, Train RMSE: 27.7293, Valid Loss: 18.5214, Valid MAPE: 0.1183, Valid RMSE: 29.5420, Training Time: 34.2747/epoch
+Iter: 000, 17.5027 :Train Loss, 0.1086:Train MAPE, 29.3956: Train RMSE
+Iter: 050, 16.9737 :Train Loss, 0.1231:Train MAPE, 29.3306: Train RMSE
+Iter: 100, 16.8836 :Train Loss, 0.1198:Train MAPE, 28.7935: Train RMSE
+Iter: 150, 16.5259 :Train Loss, 0.1236:Train MAPE, 28.4826: Train RMSE
+Epoch: 181, Train Loss: 16.2163, Train MAPE: 0.1216, Train RMSE: 27.7306, Valid Loss: 18.5126, Valid MAPE: 0.1203, Valid RMSE: 29.5461, Training Time: 34.2809/epoch
+Iter: 000, 14.3443 :Train Loss, 0.1305:Train MAPE, 24.8279: Train RMSE
+Iter: 050, 15.8659 :Train Loss, 0.1203:Train MAPE, 27.1721: Train RMSE
+Iter: 100, 18.8246 :Train Loss, 0.1092:Train MAPE, 31.2315: Train RMSE
+Iter: 150, 16.1870 :Train Loss, 0.1280:Train MAPE, 27.9565: Train RMSE
+Epoch: 182, Train Loss: 16.2101, Train MAPE: 0.1212, Train RMSE: 27.7287, Valid Loss: 18.5692, Valid MAPE: 0.1192, Valid RMSE: 29.5372, Training Time: 34.2735/epoch
+Iter: 000, 15.1293 :Train Loss, 0.1266:Train MAPE, 26.0249: Train RMSE
+Iter: 050, 16.3750 :Train Loss, 0.1182:Train MAPE, 27.6102: Train RMSE
+Iter: 100, 15.7942 :Train Loss, 0.1255:Train MAPE, 27.1185: Train RMSE
+Iter: 150, 17.1243 :Train Loss, 0.1139:Train MAPE, 28.9166: Train RMSE
+Epoch: 183, Train Loss: 16.2095, Train MAPE: 0.1212, Train RMSE: 27.7306, Valid Loss: 18.5051, Valid MAPE: 0.1196, Valid RMSE: 29.5626, Training Time: 34.2815/epoch
+Iter: 000, 17.4074 :Train Loss, 0.1076:Train MAPE, 28.8628: Train RMSE
+Iter: 050, 16.4024 :Train Loss, 0.1194:Train MAPE, 28.3297: Train RMSE
+Iter: 100, 17.0430 :Train Loss, 0.1154:Train MAPE, 29.1084: Train RMSE
+Iter: 150, 15.2317 :Train Loss, 0.1302:Train MAPE, 26.4634: Train RMSE
+Epoch: 184, Train Loss: 16.2173, Train MAPE: 0.1212, Train RMSE: 27.7399, Valid Loss: 18.5077, Valid MAPE: 0.1187, Valid RMSE: 29.5282, Training Time: 34.2720/epoch
+Iter: 000, 16.1689 :Train Loss, 0.1206:Train MAPE, 28.0839: Train RMSE
+Iter: 050, 17.8306 :Train Loss, 0.1072:Train MAPE, 29.1424: Train RMSE
+Iter: 100, 16.2869 :Train Loss, 0.1200:Train MAPE, 27.6383: Train RMSE
+Iter: 150, 15.4133 :Train Loss, 0.1241:Train MAPE, 26.7994: Train RMSE
+Epoch: 185, Train Loss: 16.1921, Train MAPE: 0.1213, Train RMSE: 27.7054, Valid Loss: 18.5546, Valid MAPE: 0.1193, Valid RMSE: 29.5462, Training Time: 34.2754/epoch
+Iter: 000, 16.6382 :Train Loss, 0.1103:Train MAPE, 27.8146: Train RMSE
+Iter: 050, 17.2877 :Train Loss, 0.1144:Train MAPE, 28.5497: Train RMSE
+Iter: 100, 15.8475 :Train Loss, 0.1261:Train MAPE, 27.4919: Train RMSE
+Iter: 150, 17.1105 :Train Loss, 0.1190:Train MAPE, 29.1817: Train RMSE
+Epoch: 186, Train Loss: 16.2070, Train MAPE: 0.1213, Train RMSE: 27.7194, Valid Loss: 18.5521, Valid MAPE: 0.1186, Valid RMSE: 29.6926, Training Time: 34.2817/epoch
+Iter: 000, 15.1069 :Train Loss, 0.1342:Train MAPE, 26.8167: Train RMSE
+Iter: 050, 16.6170 :Train Loss, 0.1175:Train MAPE, 27.8377: Train RMSE
+Iter: 100, 16.6193 :Train Loss, 0.1174:Train MAPE, 28.0807: Train RMSE
+Iter: 150, 16.6964 :Train Loss, 0.1153:Train MAPE, 28.3832: Train RMSE
+Epoch: 187, Train Loss: 16.2041, Train MAPE: 0.1212, Train RMSE: 27.7125, Valid Loss: 18.4673, Valid MAPE: 0.1188, Valid RMSE: 29.5147, Training Time: 34.2874/epoch
+Iter: 000, 16.0273 :Train Loss, 0.1281:Train MAPE, 27.9379: Train RMSE
+Iter: 050, 16.7953 :Train Loss, 0.1179:Train MAPE, 28.4987: Train RMSE
+Iter: 100, 15.8740 :Train Loss, 0.1172:Train MAPE, 27.1101: Train RMSE
+Iter: 150, 16.2580 :Train Loss, 0.1194:Train MAPE, 27.9417: Train RMSE
+Epoch: 188, Train Loss: 16.1929, Train MAPE: 0.1212, Train RMSE: 27.7026, Valid Loss: 18.5449, Valid MAPE: 0.1206, Valid RMSE: 29.5672, Training Time: 34.3799/epoch
+Iter: 000, 15.8792 :Train Loss, 0.1267:Train MAPE, 27.5691: Train RMSE
+Iter: 050, 17.7843 :Train Loss, 0.1059:Train MAPE, 29.4214: Train RMSE
+Iter: 100, 16.8041 :Train Loss, 0.1188:Train MAPE, 28.4534: Train RMSE
+Iter: 150, 16.7732 :Train Loss, 0.1108:Train MAPE, 28.1555: Train RMSE
+Epoch: 189, Train Loss: 16.2047, Train MAPE: 0.1214, Train RMSE: 27.7164, Valid Loss: 18.5485, Valid MAPE: 0.1198, Valid RMSE: 29.5577, Training Time: 34.5075/epoch
+Iter: 000, 15.6892 :Train Loss, 0.1281:Train MAPE, 27.1730: Train RMSE
+Iter: 050, 15.5261 :Train Loss, 0.1287:Train MAPE, 27.2483: Train RMSE
+Iter: 100, 14.8291 :Train Loss, 0.1280:Train MAPE, 26.1462: Train RMSE
+Iter: 150, 17.4670 :Train Loss, 0.1206:Train MAPE, 30.2354: Train RMSE
+Epoch: 190, Train Loss: 16.2027, Train MAPE: 0.1211, Train RMSE: 27.7219, Valid Loss: 18.5299, Valid MAPE: 0.1188, Valid RMSE: 29.5673, Training Time: 34.2719/epoch
+Iter: 000, 15.3505 :Train Loss, 0.1221:Train MAPE, 26.4804: Train RMSE
+Iter: 050, 14.9269 :Train Loss, 0.1240:Train MAPE, 25.7414: Train RMSE
+Iter: 100, 16.4340 :Train Loss, 0.1179:Train MAPE, 27.8095: Train RMSE
+Iter: 150, 17.1301 :Train Loss, 0.1197:Train MAPE, 30.1330: Train RMSE
+Epoch: 191, Train Loss: 16.1989, Train MAPE: 0.1211, Train RMSE: 27.7096, Valid Loss: 18.5072, Valid MAPE: 0.1195, Valid RMSE: 29.5152, Training Time: 34.4787/epoch
+Iter: 000, 17.5876 :Train Loss, 0.1082:Train MAPE, 28.8403: Train RMSE
+Iter: 050, 15.6037 :Train Loss, 0.1231:Train MAPE, 26.6981: Train RMSE
+Iter: 100, 15.9712 :Train Loss, 0.1271:Train MAPE, 27.8274: Train RMSE
+Iter: 150, 15.1764 :Train Loss, 0.1275:Train MAPE, 26.0645: Train RMSE
+Epoch: 192, Train Loss: 16.1910, Train MAPE: 0.1214, Train RMSE: 27.6945, Valid Loss: 18.5759, Valid MAPE: 0.1191, Valid RMSE: 29.5926, Training Time: 34.2807/epoch
+Iter: 000, 15.4121 :Train Loss, 0.1241:Train MAPE, 26.7658: Train RMSE
+Iter: 050, 15.7322 :Train Loss, 0.1308:Train MAPE, 27.8240: Train RMSE
+Iter: 100, 16.3288 :Train Loss, 0.1242:Train MAPE, 27.9056: Train RMSE
+Iter: 150, 17.0584 :Train Loss, 0.1145:Train MAPE, 28.2296: Train RMSE
+Epoch: 193, Train Loss: 16.1966, Train MAPE: 0.1211, Train RMSE: 27.7030, Valid Loss: 18.5220, Valid MAPE: 0.1194, Valid RMSE: 29.5058, Training Time: 34.2690/epoch
+Iter: 000, 15.6772 :Train Loss, 0.1272:Train MAPE, 26.9408: Train RMSE
+Iter: 050, 17.3399 :Train Loss, 0.1087:Train MAPE, 28.8814: Train RMSE
+Iter: 100, 15.9863 :Train Loss, 0.1211:Train MAPE, 27.0354: Train RMSE
+Iter: 150, 15.7390 :Train Loss, 0.1213:Train MAPE, 26.7343: Train RMSE
+Epoch: 194, Train Loss: 16.1979, Train MAPE: 0.1210, Train RMSE: 27.7055, Valid Loss: 18.5017, Valid MAPE: 0.1197, Valid RMSE: 29.4865, Training Time: 34.2801/epoch
+Iter: 000, 17.1622 :Train Loss, 0.1140:Train MAPE, 28.6876: Train RMSE
+Iter: 050, 15.8339 :Train Loss, 0.1224:Train MAPE, 27.6783: Train RMSE
+Iter: 100, 16.6386 :Train Loss, 0.1172:Train MAPE, 28.1755: Train RMSE
+Iter: 150, 16.1254 :Train Loss, 0.1294:Train MAPE, 27.6734: Train RMSE
+Epoch: 195, Train Loss: 16.1948, Train MAPE: 0.1210, Train RMSE: 27.7066, Valid Loss: 18.5509, Valid MAPE: 0.1190, Valid RMSE: 29.5255, Training Time: 34.2673/epoch
+Iter: 000, 16.3907 :Train Loss, 0.1198:Train MAPE, 28.2836: Train RMSE
+Iter: 050, 16.9449 :Train Loss, 0.1163:Train MAPE, 28.4790: Train RMSE
+Iter: 100, 16.8347 :Train Loss, 0.1257:Train MAPE, 28.7015: Train RMSE
+Iter: 150, 15.7353 :Train Loss, 0.1242:Train MAPE, 27.2100: Train RMSE
+Epoch: 196, Train Loss: 16.1897, Train MAPE: 0.1212, Train RMSE: 27.6997, Valid Loss: 18.4810, Valid MAPE: 0.1207, Valid RMSE: 29.5223, Training Time: 34.2752/epoch
+Iter: 000, 17.7633 :Train Loss, 0.1100:Train MAPE, 29.1076: Train RMSE
+Iter: 050, 15.6371 :Train Loss, 0.1246:Train MAPE, 26.8860: Train RMSE
+Iter: 100, 16.1362 :Train Loss, 0.1212:Train MAPE, 27.8966: Train RMSE
+Iter: 150, 15.7243 :Train Loss, 0.1207:Train MAPE, 26.9558: Train RMSE
+Epoch: 197, Train Loss: 16.1820, Train MAPE: 0.1211, Train RMSE: 27.6869, Valid Loss: 18.4827, Valid MAPE: 0.1192, Valid RMSE: 29.5053, Training Time: 34.2796/epoch
+Iter: 000, 15.7564 :Train Loss, 0.1262:Train MAPE, 27.2170: Train RMSE
+Iter: 050, 16.5059 :Train Loss, 0.1241:Train MAPE, 28.5224: Train RMSE
+Iter: 100, 17.5731 :Train Loss, 0.1103:Train MAPE, 29.2818: Train RMSE
+Iter: 150, 16.6916 :Train Loss, 0.1140:Train MAPE, 28.0611: Train RMSE
+Epoch: 198, Train Loss: 16.1737, Train MAPE: 0.1210, Train RMSE: 27.6867, Valid Loss: 18.4890, Valid MAPE: 0.1189, Valid RMSE: 29.5444, Training Time: 34.2798/epoch
+Iter: 000, 16.2974 :Train Loss, 0.1208:Train MAPE, 27.8417: Train RMSE
+Iter: 050, 16.5080 :Train Loss, 0.1165:Train MAPE, 28.2717: Train RMSE
+Iter: 100, 17.6563 :Train Loss, 0.1112:Train MAPE, 29.3903: Train RMSE
+Iter: 150, 16.6831 :Train Loss, 0.1189:Train MAPE, 28.2655: Train RMSE
+Epoch: 199, Train Loss: 16.1890, Train MAPE: 0.1209, Train RMSE: 27.6952, Valid Loss: 18.5295, Valid MAPE: 0.1188, Valid RMSE: 29.5192, Training Time: 34.2826/epoch
+Iter: 000, 15.1940 :Train Loss, 0.1273:Train MAPE, 26.6414: Train RMSE
+Iter: 050, 17.2402 :Train Loss, 0.1156:Train MAPE, 29.1488: Train RMSE
+Iter: 100, 16.7168 :Train Loss, 0.1164:Train MAPE, 28.0993: Train RMSE
+Iter: 150, 15.5092 :Train Loss, 0.1241:Train MAPE, 26.2039: Train RMSE
+Epoch: 200, Train Loss: 16.1722, Train MAPE: 0.1209, Train RMSE: 27.6811, Valid Loss: 18.5274, Valid MAPE: 0.1199, Valid RMSE: 29.5343, Training Time: 34.3039/epoch
+Average Training Time: 35.0892 secs/epoch
+Average Inference Time: 2.2858 secs
+The valid loss on best model is 18.4673
+seed is 1689602685
+Evaluate best model on test data for horizon 1, Test MAE: 16.6879, Test MAPE: 0.1117, Test RMSE: 27.2439
+Evaluate best model on test data for horizon 2, Test MAE: 17.2699, Test MAPE: 0.1160, Test RMSE: 28.3942
+Evaluate best model on test data for horizon 3, Test MAE: 17.7549, Test MAPE: 0.1188, Test RMSE: 29.2845
+Evaluate best model on test data for horizon 4, Test MAE: 18.0814, Test MAPE: 0.1205, Test RMSE: 29.9108
+Evaluate best model on test data for horizon 5, Test MAE: 18.3622, Test MAPE: 0.1221, Test RMSE: 30.4432
+Evaluate best model on test data for horizon 6, Test MAE: 18.6164, Test MAPE: 0.1237, Test RMSE: 30.9209
+Evaluate best model on test data for horizon 7, Test MAE: 18.8704, Test MAPE: 0.1257, Test RMSE: 31.3901
+Evaluate best model on test data for horizon 8, Test MAE: 19.0806, Test MAPE: 0.1271, Test RMSE: 31.7571
+Evaluate best model on test data for horizon 9, Test MAE: 19.2823, Test MAPE: 0.1287, Test RMSE: 32.1551
+Evaluate best model on test data for horizon 10, Test MAE: 19.4409, Test MAPE: 0.1300, Test RMSE: 32.4181
+Evaluate best model on test data for horizon 11, Test MAE: 19.6258, Test MAPE: 0.1317, Test RMSE: 32.6901
+Evaluate best model on test data for horizon 12, Test MAE: 19.8670, Test MAPE: 0.1332, Test RMSE: 33.0063
+On average over 12 horizons, Test MAE: 18.5783, Test MAPE: 0.1241, Test RMSE: 30.8012
