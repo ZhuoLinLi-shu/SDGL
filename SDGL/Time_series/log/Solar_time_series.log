@@ -1,0 +1,557 @@
+Namespace(addaptadj=True, batch_size=64, dataset='data/solar_AL.txt', device='cuda:0', dilation_exponential=5, dropout=0.3, dropout_ingc=0.3, embed_dim=10, epochs=50, eta=1, expid=1, gamma=0.01, gcn_bool=True, horizon=3, in_dim=1, layers=3, learning_rate=0.001, log_file='./log/solar_33_16_0.001_10_3_0.0_3_0.3_0.3_0.01_log', moco=0.99, nhid=16, normalize=2, num_nodes=137, order=1.0, print_every=50, rate=1, save='./model/solar_AL', seed=1689680871, seq_length=168, seq_out_len=1, weight_decay=0.0)
+paramter number is :2348887
+Iter: 000, 9.5591 :Train Loss
+Iter: 050, 1.0962 :Train Loss
+Iter: 100, 1.2414 :Train Loss
+Iter: 150, 1.1890 :Train Loss
+Iter: 200, 1.1435 :Train Loss
+Iter: 250, 1.2863 :Train Loss
+Iter: 300, 1.1694 :Train Loss
+Iter: 350, 0.8558 :Train Loss
+Iter: 400, 1.3244 :Train Loss
+Iter: 450, 0.9487 :Train Loss
+Epoch: 001, Train Loss: 1.2888, Valid Loss: 0.2551, Valid MAPE: 0.1555, Valid RMSE: 0.9759, Training Time: 461.6271/epoch
+Iter: 000, 1.2014 :Train Loss
+Iter: 050, 0.6394 :Train Loss
+Iter: 100, 0.6238 :Train Loss
+Iter: 150, 0.9602 :Train Loss
+Iter: 200, 1.0905 :Train Loss
+Iter: 250, 0.6533 :Train Loss
+Iter: 300, 0.9358 :Train Loss
+Iter: 350, 0.9081 :Train Loss
+Iter: 400, 1.0239 :Train Loss
+Iter: 450, 0.9191 :Train Loss
+Epoch: 002, Train Loss: 0.9413, Valid Loss: 0.2557, Valid MAPE: 0.1428, Valid RMSE: 0.9759, Training Time: 459.9090/epoch
+Iter: 000, 0.8482 :Train Loss
+Iter: 050, 1.0765 :Train Loss
+Iter: 100, 0.8135 :Train Loss
+Iter: 150, 0.6972 :Train Loss
+Iter: 200, 0.8534 :Train Loss
+Iter: 250, 0.7920 :Train Loss
+Iter: 300, 1.0796 :Train Loss
+Iter: 350, 0.8931 :Train Loss
+Iter: 400, 0.6998 :Train Loss
+Iter: 450, 0.8014 :Train Loss
+Epoch: 003, Train Loss: 0.9035, Valid Loss: 0.2478, Valid MAPE: 0.1303, Valid RMSE: 0.9775, Training Time: 458.3784/epoch
+Iter: 000, 0.8334 :Train Loss
+Iter: 050, 0.7790 :Train Loss
+Iter: 100, 0.9160 :Train Loss
+Iter: 150, 0.6774 :Train Loss
+Iter: 200, 0.7655 :Train Loss
+Iter: 250, 0.6946 :Train Loss
+Iter: 300, 0.9386 :Train Loss
+Iter: 350, 0.6906 :Train Loss
+Iter: 400, 0.8925 :Train Loss
+Iter: 450, 0.8004 :Train Loss
+Epoch: 004, Train Loss: 0.8544, Valid Loss: 0.2504, Valid MAPE: 0.1357, Valid RMSE: 0.9783, Training Time: 460.4169/epoch
+Iter: 000, 0.8066 :Train Loss
+Iter: 050, 0.9173 :Train Loss
+Iter: 100, 0.5352 :Train Loss
+Iter: 150, 0.9379 :Train Loss
+Iter: 200, 0.7404 :Train Loss
+Iter: 250, 0.8495 :Train Loss
+Iter: 300, 0.8181 :Train Loss
+Iter: 350, 0.7352 :Train Loss
+Iter: 400, 0.9612 :Train Loss
+Iter: 450, 0.5193 :Train Loss
+Epoch: 005, Train Loss: 0.8312, Valid Loss: 0.2454, Valid MAPE: 0.1307, Valid RMSE: 0.9785, Training Time: 458.4934/epoch
+Iter: 000, 0.9852 :Train Loss
+Iter: 050, 0.7949 :Train Loss
+Iter: 100, 0.9028 :Train Loss
+Iter: 150, 0.7586 :Train Loss
+Iter: 200, 0.9584 :Train Loss
+Iter: 250, 1.1225 :Train Loss
+Iter: 300, 0.8508 :Train Loss
+Iter: 350, 0.9337 :Train Loss
+Iter: 400, 1.0234 :Train Loss
+Iter: 450, 0.9846 :Train Loss
+Epoch: 006, Train Loss: 0.8252, Valid Loss: 0.2390, Valid MAPE: 0.1253, Valid RMSE: 0.9788, Training Time: 479.7636/epoch
+Iter: 000, 0.7758 :Train Loss
+Iter: 050, 0.8544 :Train Loss
+Iter: 100, 0.7208 :Train Loss
+Iter: 150, 0.8533 :Train Loss
+Iter: 200, 0.7325 :Train Loss
+Iter: 250, 0.8787 :Train Loss
+Iter: 300, 0.6472 :Train Loss
+Iter: 350, 0.9205 :Train Loss
+Iter: 400, 0.9180 :Train Loss
+Iter: 450, 0.7979 :Train Loss
+Epoch: 007, Train Loss: 0.8125, Valid Loss: 0.2377, Valid MAPE: 0.1307, Valid RMSE: 0.9790, Training Time: 465.8157/epoch
+Iter: 000, 0.9950 :Train Loss
+Iter: 050, 0.6606 :Train Loss
+Iter: 100, 0.7124 :Train Loss
+Iter: 150, 0.8624 :Train Loss
+Iter: 200, 0.5682 :Train Loss
+Iter: 250, 0.9191 :Train Loss
+Iter: 300, 0.7647 :Train Loss
+Iter: 350, 0.6710 :Train Loss
+Iter: 400, 0.6159 :Train Loss
+Iter: 450, 0.5971 :Train Loss
+Epoch: 008, Train Loss: 0.8013, Valid Loss: 0.2363, Valid MAPE: 0.1238, Valid RMSE: 0.9795, Training Time: 464.9976/epoch
+Iter: 000, 0.8020 :Train Loss
+Iter: 050, 0.9381 :Train Loss
+Iter: 100, 0.6427 :Train Loss
+Iter: 150, 0.7830 :Train Loss
+Iter: 200, 0.6243 :Train Loss
+Iter: 250, 1.0107 :Train Loss
+Iter: 300, 0.8051 :Train Loss
+Iter: 350, 0.7688 :Train Loss
+Iter: 400, 1.0841 :Train Loss
+Iter: 450, 0.8961 :Train Loss
+Epoch: 009, Train Loss: 0.7967, Valid Loss: 0.2359, Valid MAPE: 0.1231, Valid RMSE: 0.9797, Training Time: 462.8204/epoch
+Iter: 000, 0.8210 :Train Loss
+Iter: 050, 0.7492 :Train Loss
+Iter: 100, 0.8089 :Train Loss
+Iter: 150, 0.8616 :Train Loss
+Iter: 200, 0.9565 :Train Loss
+Iter: 250, 0.7821 :Train Loss
+Iter: 300, 0.6298 :Train Loss
+Iter: 350, 0.7031 :Train Loss
+Iter: 400, 0.6846 :Train Loss
+Iter: 450, 0.8431 :Train Loss
+Epoch: 010, Train Loss: 0.7852, Valid Loss: 0.2374, Valid MAPE: 0.1276, Valid RMSE: 0.9800, Training Time: 461.8950/epoch
+Iter: 000, 0.9334 :Train Loss
+Iter: 050, 0.7283 :Train Loss
+Iter: 100, 0.9329 :Train Loss
+Iter: 150, 0.8304 :Train Loss
+Iter: 200, 0.8393 :Train Loss
+Iter: 250, 0.5300 :Train Loss
+Iter: 300, 0.6155 :Train Loss
+Iter: 350, 0.5645 :Train Loss
+Iter: 400, 0.7279 :Train Loss
+Iter: 450, 1.0392 :Train Loss
+Epoch: 011, Train Loss: 0.7888, Valid Loss: 0.2323, Valid MAPE: 0.1212, Valid RMSE: 0.9799, Training Time: 462.1840/epoch
+Iter: 000, 0.6867 :Train Loss
+Iter: 050, 0.9598 :Train Loss
+Iter: 100, 0.7243 :Train Loss
+Iter: 150, 0.7675 :Train Loss
+Iter: 200, 0.8954 :Train Loss
+Iter: 250, 0.7316 :Train Loss
+Iter: 300, 0.8315 :Train Loss
+Iter: 350, 0.6103 :Train Loss
+Iter: 400, 0.8177 :Train Loss
+Iter: 450, 0.7302 :Train Loss
+Epoch: 012, Train Loss: 0.7789, Valid Loss: 0.2321, Valid MAPE: 0.1224, Valid RMSE: 0.9802, Training Time: 466.7848/epoch
+Iter: 000, 0.7834 :Train Loss
+Iter: 050, 0.6059 :Train Loss
+Iter: 100, 0.8884 :Train Loss
+Iter: 150, 0.6291 :Train Loss
+Iter: 200, 0.9065 :Train Loss
+Iter: 250, 0.8805 :Train Loss
+Iter: 300, 0.5731 :Train Loss
+Iter: 350, 0.6332 :Train Loss
+Iter: 400, 0.5291 :Train Loss
+Iter: 450, 0.6924 :Train Loss
+Epoch: 013, Train Loss: 0.7751, Valid Loss: 0.2353, Valid MAPE: 0.1222, Valid RMSE: 0.9799, Training Time: 478.9914/epoch
+Iter: 000, 0.7325 :Train Loss
+Iter: 050, 0.8111 :Train Loss
+Iter: 100, 0.7794 :Train Loss
+Iter: 150, 0.7698 :Train Loss
+Iter: 200, 0.7593 :Train Loss
+Iter: 250, 0.9659 :Train Loss
+Iter: 300, 0.7294 :Train Loss
+Iter: 350, 0.7735 :Train Loss
+Iter: 400, 0.7512 :Train Loss
+Iter: 450, 0.8826 :Train Loss
+Epoch: 014, Train Loss: 0.7728, Valid Loss: 0.2336, Valid MAPE: 0.1255, Valid RMSE: 0.9804, Training Time: 477.9806/epoch
+Iter: 000, 0.7683 :Train Loss
+Iter: 050, 0.6488 :Train Loss
+Iter: 100, 0.6877 :Train Loss
+Iter: 150, 0.4827 :Train Loss
+Iter: 200, 0.9236 :Train Loss
+Iter: 250, 0.7170 :Train Loss
+Iter: 300, 0.7425 :Train Loss
+Iter: 350, 0.7760 :Train Loss
+Iter: 400, 0.6590 :Train Loss
+Iter: 450, 0.9626 :Train Loss
+Epoch: 015, Train Loss: 0.7765, Valid Loss: 0.2303, Valid MAPE: 0.1220, Valid RMSE: 0.9801, Training Time: 480.4138/epoch
+Iter: 000, 0.8296 :Train Loss
+Iter: 050, 0.9182 :Train Loss
+Iter: 100, 0.8110 :Train Loss
+Iter: 150, 1.0851 :Train Loss
+Iter: 200, 0.6921 :Train Loss
+Iter: 250, 0.7518 :Train Loss
+Iter: 300, 0.7715 :Train Loss
+Iter: 350, 0.7734 :Train Loss
+Iter: 400, 0.4700 :Train Loss
+Iter: 450, 0.7560 :Train Loss
+Epoch: 016, Train Loss: 0.7620, Valid Loss: 0.2302, Valid MAPE: 0.1230, Valid RMSE: 0.9802, Training Time: 459.7837/epoch
+Iter: 000, 0.7254 :Train Loss
+Iter: 050, 0.7333 :Train Loss
+Iter: 100, 0.9574 :Train Loss
+Iter: 150, 0.6589 :Train Loss
+Iter: 200, 0.8148 :Train Loss
+Iter: 250, 0.8627 :Train Loss
+Iter: 300, 0.7219 :Train Loss
+Iter: 350, 0.8042 :Train Loss
+Iter: 400, 0.7198 :Train Loss
+Iter: 450, 0.7503 :Train Loss
+Epoch: 017, Train Loss: 0.7625, Valid Loss: 0.2331, Valid MAPE: 0.1234, Valid RMSE: 0.9804, Training Time: 464.1843/epoch
+Iter: 000, 0.7535 :Train Loss
+Iter: 050, 0.6399 :Train Loss
+Iter: 100, 0.6707 :Train Loss
+Iter: 150, 0.6264 :Train Loss
+Iter: 200, 0.9553 :Train Loss
+Iter: 250, 0.7289 :Train Loss
+Iter: 300, 0.6918 :Train Loss
+Iter: 350, 0.6494 :Train Loss
+Iter: 400, 0.7280 :Train Loss
+Iter: 450, 0.7267 :Train Loss
+Epoch: 018, Train Loss: 0.7558, Valid Loss: 0.2299, Valid MAPE: 0.1244, Valid RMSE: 0.9803, Training Time: 458.7533/epoch
+Iter: 000, 0.5300 :Train Loss
+Iter: 050, 0.6699 :Train Loss
+Iter: 100, 0.8238 :Train Loss
+Iter: 150, 0.7269 :Train Loss
+Iter: 200, 0.7822 :Train Loss
+Iter: 250, 0.5779 :Train Loss
+Iter: 300, 0.5312 :Train Loss
+Iter: 350, 0.7421 :Train Loss
+Iter: 400, 0.9871 :Train Loss
+Iter: 450, 0.7626 :Train Loss
+Epoch: 019, Train Loss: 0.7530, Valid Loss: 0.2300, Valid MAPE: 0.1215, Valid RMSE: 0.9805, Training Time: 458.1542/epoch
+Iter: 000, 0.7034 :Train Loss
+Iter: 050, 0.7405 :Train Loss
+Iter: 100, 0.5422 :Train Loss
+Iter: 150, 0.5941 :Train Loss
+Iter: 200, 0.8084 :Train Loss
+Iter: 250, 0.7213 :Train Loss
+Iter: 300, 0.7177 :Train Loss
+Iter: 350, 0.5213 :Train Loss
+Iter: 400, 0.8068 :Train Loss
+Iter: 450, 0.6419 :Train Loss
+Epoch: 020, Train Loss: 0.7497, Valid Loss: 0.2326, Valid MAPE: 0.1200, Valid RMSE: 0.9803, Training Time: 458.6422/epoch
+Iter: 000, 0.7498 :Train Loss
+Iter: 050, 0.8220 :Train Loss
+Iter: 100, 0.7150 :Train Loss
+Iter: 150, 0.7093 :Train Loss
+Iter: 200, 0.5462 :Train Loss
+Iter: 250, 0.8882 :Train Loss
+Iter: 300, 0.8910 :Train Loss
+Iter: 350, 0.5924 :Train Loss
+Iter: 400, 0.7638 :Train Loss
+Iter: 450, 0.8453 :Train Loss
+Epoch: 021, Train Loss: 0.7474, Valid Loss: 0.2353, Valid MAPE: 0.1255, Valid RMSE: 0.9798, Training Time: 458.3687/epoch
+Iter: 000, 0.9850 :Train Loss
+Iter: 050, 0.7456 :Train Loss
+Iter: 100, 0.6465 :Train Loss
+Iter: 150, 0.9354 :Train Loss
+Iter: 200, 0.7695 :Train Loss
+Iter: 250, 0.6638 :Train Loss
+Iter: 300, 0.6407 :Train Loss
+Iter: 350, 0.7305 :Train Loss
+Iter: 400, 0.8905 :Train Loss
+Iter: 450, 0.6808 :Train Loss
+Epoch: 022, Train Loss: 0.7640, Valid Loss: 0.2304, Valid MAPE: 0.1215, Valid RMSE: 0.9803, Training Time: 458.6232/epoch
+Iter: 000, 0.8899 :Train Loss
+Iter: 050, 0.9163 :Train Loss
+Iter: 100, 0.7668 :Train Loss
+Iter: 150, 0.7019 :Train Loss
+Iter: 200, 0.8124 :Train Loss
+Iter: 250, 0.6221 :Train Loss
+Iter: 300, 0.8075 :Train Loss
+Iter: 350, 0.8233 :Train Loss
+Iter: 400, 0.8881 :Train Loss
+Iter: 450, 0.7849 :Train Loss
+Epoch: 023, Train Loss: 0.7451, Valid Loss: 0.2290, Valid MAPE: 0.1205, Valid RMSE: 0.9804, Training Time: 457.8833/epoch
+Iter: 000, 0.5931 :Train Loss
+Iter: 050, 0.6387 :Train Loss
+Iter: 100, 0.9140 :Train Loss
+Iter: 150, 0.7253 :Train Loss
+Iter: 200, 0.7071 :Train Loss
+Iter: 250, 0.5939 :Train Loss
+Iter: 300, 0.8003 :Train Loss
+Iter: 350, 0.8266 :Train Loss
+Iter: 400, 0.6654 :Train Loss
+Iter: 450, 0.7605 :Train Loss
+Epoch: 024, Train Loss: 0.7408, Valid Loss: 0.2277, Valid MAPE: 0.1188, Valid RMSE: 0.9806, Training Time: 458.4162/epoch
+Iter: 000, 0.8986 :Train Loss
+Iter: 050, 0.8370 :Train Loss
+Iter: 100, 0.8583 :Train Loss
+Iter: 150, 0.7893 :Train Loss
+Iter: 200, 0.9949 :Train Loss
+Iter: 250, 1.0168 :Train Loss
+Iter: 300, 0.7412 :Train Loss
+Iter: 350, 0.7071 :Train Loss
+Iter: 400, 0.8274 :Train Loss
+Iter: 450, 0.6087 :Train Loss
+Epoch: 025, Train Loss: 0.7389, Valid Loss: 0.2356, Valid MAPE: 0.1225, Valid RMSE: 0.9804, Training Time: 457.6904/epoch
+Iter: 000, 0.7140 :Train Loss
+Iter: 050, 0.7002 :Train Loss
+Iter: 100, 0.7301 :Train Loss
+Iter: 150, 0.6718 :Train Loss
+Iter: 200, 0.7234 :Train Loss
+Iter: 250, 0.6017 :Train Loss
+Iter: 300, 0.8459 :Train Loss
+Iter: 350, 0.8315 :Train Loss
+Iter: 400, 0.6570 :Train Loss
+Iter: 450, 0.8109 :Train Loss
+Epoch: 026, Train Loss: 0.7398, Valid Loss: 0.2300, Valid MAPE: 0.1186, Valid RMSE: 0.9806, Training Time: 458.4455/epoch
+Iter: 000, 0.8124 :Train Loss
+Iter: 050, 0.5610 :Train Loss
+Iter: 100, 0.8154 :Train Loss
+Iter: 150, 0.6875 :Train Loss
+Iter: 200, 0.5611 :Train Loss
+Iter: 250, 0.8500 :Train Loss
+Iter: 300, 0.7009 :Train Loss
+Iter: 350, 0.8502 :Train Loss
+Iter: 400, 0.7039 :Train Loss
+Iter: 450, 0.8771 :Train Loss
+Epoch: 027, Train Loss: 0.7378, Valid Loss: 0.2323, Valid MAPE: 0.1196, Valid RMSE: 0.9805, Training Time: 459.1687/epoch
+Iter: 000, 0.7310 :Train Loss
+Iter: 050, 0.7847 :Train Loss
+Iter: 100, 0.6446 :Train Loss
+Iter: 150, 0.9590 :Train Loss
+Iter: 200, 0.7900 :Train Loss
+Iter: 250, 0.6726 :Train Loss
+Iter: 300, 0.7475 :Train Loss
+Iter: 350, 0.7252 :Train Loss
+Iter: 400, 0.9655 :Train Loss
+Iter: 450, 0.7235 :Train Loss
+Epoch: 028, Train Loss: 0.7319, Valid Loss: 0.2284, Valid MAPE: 0.1207, Valid RMSE: 0.9807, Training Time: 458.8717/epoch
+Iter: 000, 1.0582 :Train Loss
+Iter: 050, 0.5498 :Train Loss
+Iter: 100, 0.8079 :Train Loss
+Iter: 150, 0.8367 :Train Loss
+Iter: 200, 0.5841 :Train Loss
+Iter: 250, 0.6115 :Train Loss
+Iter: 300, 0.7340 :Train Loss
+Iter: 350, 0.8434 :Train Loss
+Iter: 400, 0.8439 :Train Loss
+Iter: 450, 0.7260 :Train Loss
+Epoch: 029, Train Loss: 0.7310, Valid Loss: 0.2294, Valid MAPE: 0.1189, Valid RMSE: 0.9805, Training Time: 461.3220/epoch
+Iter: 000, 0.5958 :Train Loss
+Iter: 050, 1.0656 :Train Loss
+Iter: 100, 0.5267 :Train Loss
+Iter: 150, 0.6094 :Train Loss
+Iter: 200, 0.7122 :Train Loss
+Iter: 250, 0.5434 :Train Loss
+Iter: 300, 0.7432 :Train Loss
+Iter: 350, 0.7992 :Train Loss
+Iter: 400, 0.5430 :Train Loss
+Iter: 450, 0.7648 :Train Loss
+Epoch: 030, Train Loss: 0.7304, Valid Loss: 0.2340, Valid MAPE: 0.1215, Valid RMSE: 0.9804, Training Time: 460.0830/epoch
+Iter: 000, 0.8729 :Train Loss
+Iter: 050, 0.6819 :Train Loss
+Iter: 100, 0.5825 :Train Loss
+Iter: 150, 0.4819 :Train Loss
+Iter: 200, 0.7744 :Train Loss
+Iter: 250, 0.6021 :Train Loss
+Iter: 300, 0.7581 :Train Loss
+Iter: 350, 0.9033 :Train Loss
+Iter: 400, 0.8092 :Train Loss
+Iter: 450, 0.5274 :Train Loss
+Epoch: 031, Train Loss: 0.7280, Valid Loss: 0.2332, Valid MAPE: 0.1217, Valid RMSE: 0.9800, Training Time: 458.8824/epoch
+Iter: 000, 0.9630 :Train Loss
+Iter: 050, 0.5393 :Train Loss
+Iter: 100, 0.7084 :Train Loss
+Iter: 150, 0.7121 :Train Loss
+Iter: 200, 0.5435 :Train Loss
+Iter: 250, 0.8006 :Train Loss
+Iter: 300, 0.8403 :Train Loss
+Iter: 350, 0.7402 :Train Loss
+Iter: 400, 0.7266 :Train Loss
+Iter: 450, 0.8735 :Train Loss
+Epoch: 032, Train Loss: 0.7293, Valid Loss: 0.2345, Valid MAPE: 0.1221, Valid RMSE: 0.9804, Training Time: 459.7688/epoch
+Iter: 000, 0.9201 :Train Loss
+Iter: 050, 0.7657 :Train Loss
+Iter: 100, 0.5692 :Train Loss
+Iter: 150, 0.9063 :Train Loss
+Iter: 200, 0.5947 :Train Loss
+Iter: 250, 0.7620 :Train Loss
+Iter: 300, 0.8832 :Train Loss
+Iter: 350, 0.6641 :Train Loss
+Iter: 400, 0.6851 :Train Loss
+Iter: 450, 0.5831 :Train Loss
+Epoch: 033, Train Loss: 0.7250, Valid Loss: 0.2313, Valid MAPE: 0.1199, Valid RMSE: 0.9806, Training Time: 459.4632/epoch
+Iter: 000, 0.7491 :Train Loss
+Iter: 050, 0.5860 :Train Loss
+Iter: 100, 0.8196 :Train Loss
+Iter: 150, 0.5640 :Train Loss
+Iter: 200, 0.5956 :Train Loss
+Iter: 250, 0.7725 :Train Loss
+Iter: 300, 0.8194 :Train Loss
+Iter: 350, 0.7418 :Train Loss
+Iter: 400, 0.8393 :Train Loss
+Iter: 450, 0.7202 :Train Loss
+Epoch: 034, Train Loss: 0.7214, Valid Loss: 0.2306, Valid MAPE: 0.1190, Valid RMSE: 0.9803, Training Time: 458.8565/epoch
+Iter: 000, 0.7273 :Train Loss
+Iter: 050, 0.8376 :Train Loss
+Iter: 100, 0.8508 :Train Loss
+Iter: 150, 0.6197 :Train Loss
+Iter: 200, 0.7644 :Train Loss
+Iter: 250, 0.6634 :Train Loss
+Iter: 300, 0.7888 :Train Loss
+Iter: 350, 0.6500 :Train Loss
+Iter: 400, 0.6323 :Train Loss
+Iter: 450, 0.6714 :Train Loss
+Epoch: 035, Train Loss: 0.7209, Valid Loss: 0.2296, Valid MAPE: 0.1185, Valid RMSE: 0.9806, Training Time: 460.4511/epoch
+Iter: 000, 0.4984 :Train Loss
+Iter: 050, 0.6976 :Train Loss
+Iter: 100, 0.5476 :Train Loss
+Iter: 150, 0.7295 :Train Loss
+Iter: 200, 0.6497 :Train Loss
+Iter: 250, 0.7309 :Train Loss
+Iter: 300, 0.5864 :Train Loss
+Iter: 350, 0.7420 :Train Loss
+Iter: 400, 0.6558 :Train Loss
+Iter: 450, 0.6935 :Train Loss
+Epoch: 036, Train Loss: 0.7050, Valid Loss: 0.2293, Valid MAPE: 0.1168, Valid RMSE: 0.9807, Training Time: 459.1806/epoch
+Iter: 000, 0.7305 :Train Loss
+Iter: 050, 0.6355 :Train Loss
+Iter: 100, 0.6348 :Train Loss
+Iter: 150, 0.7291 :Train Loss
+Iter: 200, 0.7837 :Train Loss
+Iter: 250, 0.7699 :Train Loss
+Iter: 300, 0.7572 :Train Loss
+Iter: 350, 0.5351 :Train Loss
+Iter: 400, 0.6541 :Train Loss
+Iter: 450, 0.8187 :Train Loss
+Epoch: 037, Train Loss: 0.7025, Valid Loss: 0.2291, Valid MAPE: 0.1168, Valid RMSE: 0.9808, Training Time: 459.0462/epoch
+Iter: 000, 0.6353 :Train Loss
+Iter: 050, 0.5193 :Train Loss
+Iter: 100, 0.6875 :Train Loss
+Iter: 150, 0.7553 :Train Loss
+Iter: 200, 0.6610 :Train Loss
+Iter: 250, 0.6312 :Train Loss
+Iter: 300, 0.7671 :Train Loss
+Iter: 350, 0.7388 :Train Loss
+Iter: 400, 0.7155 :Train Loss
+Iter: 450, 0.6255 :Train Loss
+Epoch: 038, Train Loss: 0.7021, Valid Loss: 0.2302, Valid MAPE: 0.1185, Valid RMSE: 0.9808, Training Time: 458.7822/epoch
+Iter: 000, 0.8513 :Train Loss
+Iter: 050, 0.6118 :Train Loss
+Iter: 100, 0.5476 :Train Loss
+Iter: 150, 0.7581 :Train Loss
+Iter: 200, 0.9006 :Train Loss
+Iter: 250, 0.7977 :Train Loss
+Iter: 300, 0.6682 :Train Loss
+Iter: 350, 0.7628 :Train Loss
+Iter: 400, 0.8781 :Train Loss
+Iter: 450, 0.7010 :Train Loss
+Epoch: 039, Train Loss: 0.6997, Valid Loss: 0.2281, Valid MAPE: 0.1172, Valid RMSE: 0.9807, Training Time: 458.8855/epoch
+Iter: 000, 0.6590 :Train Loss
+Iter: 050, 0.7195 :Train Loss
+Iter: 100, 0.6743 :Train Loss
+Iter: 150, 0.6887 :Train Loss
+Iter: 200, 0.5048 :Train Loss
+Iter: 250, 0.5595 :Train Loss
+Iter: 300, 0.7453 :Train Loss
+Iter: 350, 0.6392 :Train Loss
+Iter: 400, 0.7284 :Train Loss
+Iter: 450, 0.5403 :Train Loss
+Epoch: 040, Train Loss: 0.6996, Valid Loss: 0.2315, Valid MAPE: 0.1186, Valid RMSE: 0.9807, Training Time: 459.5396/epoch
+Iter: 000, 0.6534 :Train Loss
+Iter: 050, 0.7913 :Train Loss
+Iter: 100, 0.7093 :Train Loss
+Iter: 150, 0.5516 :Train Loss
+Iter: 200, 0.5061 :Train Loss
+Iter: 250, 0.7137 :Train Loss
+Iter: 300, 0.5453 :Train Loss
+Iter: 350, 0.5912 :Train Loss
+Iter: 400, 0.5681 :Train Loss
+Iter: 450, 0.8152 :Train Loss
+Epoch: 041, Train Loss: 0.6982, Valid Loss: 0.2287, Valid MAPE: 0.1182, Valid RMSE: 0.9806, Training Time: 459.2626/epoch
+Iter: 000, 0.6511 :Train Loss
+Iter: 050, 0.6580 :Train Loss
+Iter: 100, 0.9954 :Train Loss
+Iter: 150, 0.7804 :Train Loss
+Iter: 200, 0.6857 :Train Loss
+Iter: 250, 0.7801 :Train Loss
+Iter: 300, 0.6933 :Train Loss
+Iter: 350, 1.0565 :Train Loss
+Iter: 400, 0.6500 :Train Loss
+Iter: 450, 0.6792 :Train Loss
+Epoch: 042, Train Loss: 0.6967, Valid Loss: 0.2278, Valid MAPE: 0.1167, Valid RMSE: 0.9808, Training Time: 459.5638/epoch
+Iter: 000, 0.7859 :Train Loss
+Iter: 050, 0.6229 :Train Loss
+Iter: 100, 0.6832 :Train Loss
+Iter: 150, 0.6533 :Train Loss
+Iter: 200, 0.6918 :Train Loss
+Iter: 250, 0.7228 :Train Loss
+Iter: 300, 0.6466 :Train Loss
+Iter: 350, 0.6785 :Train Loss
+Iter: 400, 0.5765 :Train Loss
+Iter: 450, 0.6640 :Train Loss
+Epoch: 043, Train Loss: 0.6957, Valid Loss: 0.2367, Valid MAPE: 0.1225, Valid RMSE: 0.9807, Training Time: 460.3647/epoch
+Iter: 000, 0.4375 :Train Loss
+Iter: 050, 0.6746 :Train Loss
+Iter: 100, 0.6491 :Train Loss
+Iter: 150, 0.6531 :Train Loss
+Iter: 200, 0.5020 :Train Loss
+Iter: 250, 0.7570 :Train Loss
+Iter: 300, 0.6810 :Train Loss
+Iter: 350, 0.6670 :Train Loss
+Iter: 400, 0.6184 :Train Loss
+Iter: 450, 0.6970 :Train Loss
+Epoch: 044, Train Loss: 0.6963, Valid Loss: 0.2308, Valid MAPE: 0.1176, Valid RMSE: 0.9807, Training Time: 461.7516/epoch
+Iter: 000, 0.6935 :Train Loss
+Iter: 050, 0.7029 :Train Loss
+Iter: 100, 0.6203 :Train Loss
+Iter: 150, 0.8698 :Train Loss
+Iter: 200, 0.5240 :Train Loss
+Iter: 250, 0.6172 :Train Loss
+Iter: 300, 0.8260 :Train Loss
+Iter: 350, 0.6546 :Train Loss
+Iter: 400, 0.5134 :Train Loss
+Iter: 450, 0.5526 :Train Loss
+Epoch: 045, Train Loss: 0.6937, Valid Loss: 0.2325, Valid MAPE: 0.1184, Valid RMSE: 0.9807, Training Time: 459.6633/epoch
+Iter: 000, 0.5710 :Train Loss
+Iter: 050, 0.6894 :Train Loss
+Iter: 100, 0.7679 :Train Loss
+Iter: 150, 0.6679 :Train Loss
+Iter: 200, 0.9351 :Train Loss
+Iter: 250, 0.6547 :Train Loss
+Iter: 300, 0.5920 :Train Loss
+Iter: 350, 0.8266 :Train Loss
+Iter: 400, 0.7736 :Train Loss
+Iter: 450, 0.5904 :Train Loss
+Epoch: 046, Train Loss: 0.6924, Valid Loss: 0.2322, Valid MAPE: 0.1186, Valid RMSE: 0.9808, Training Time: 459.3286/epoch
+Iter: 000, 0.6378 :Train Loss
+Iter: 050, 0.7481 :Train Loss
+Iter: 100, 0.8877 :Train Loss
+Iter: 150, 0.6742 :Train Loss
+Iter: 200, 0.6621 :Train Loss
+Iter: 250, 0.5943 :Train Loss
+Iter: 300, 0.8465 :Train Loss
+Iter: 350, 0.7760 :Train Loss
+Iter: 400, 0.7943 :Train Loss
+Iter: 450, 0.6697 :Train Loss
+Epoch: 047, Train Loss: 0.6917, Valid Loss: 0.2287, Valid MAPE: 0.1175, Valid RMSE: 0.9806, Training Time: 459.0639/epoch
+Iter: 000, 0.5238 :Train Loss
+Iter: 050, 0.6115 :Train Loss
+Iter: 100, 0.6580 :Train Loss
+Iter: 150, 0.5177 :Train Loss
+Iter: 200, 0.6294 :Train Loss
+Iter: 250, 0.7106 :Train Loss
+Iter: 300, 0.6348 :Train Loss
+Iter: 350, 0.7028 :Train Loss
+Iter: 400, 0.6003 :Train Loss
+Iter: 450, 0.7133 :Train Loss
+Epoch: 048, Train Loss: 0.6895, Valid Loss: 0.2305, Valid MAPE: 0.1176, Valid RMSE: 0.9808, Training Time: 459.2579/epoch
+Iter: 000, 0.6227 :Train Loss
+Iter: 050, 0.6727 :Train Loss
+Iter: 100, 0.6214 :Train Loss
+Iter: 150, 0.8251 :Train Loss
+Iter: 200, 0.7215 :Train Loss
+Iter: 250, 0.7813 :Train Loss
+Iter: 300, 0.6376 :Train Loss
+Iter: 350, 0.6686 :Train Loss
+Iter: 400, 0.5800 :Train Loss
+Iter: 450, 0.9091 :Train Loss
+Epoch: 049, Train Loss: 0.6906, Valid Loss: 0.2293, Valid MAPE: 0.1172, Valid RMSE: 0.9807, Training Time: 459.6507/epoch
+Iter: 000, 0.8806 :Train Loss
+Iter: 050, 0.5717 :Train Loss
+Iter: 100, 0.6841 :Train Loss
+Iter: 150, 0.6717 :Train Loss
+Iter: 200, 0.5028 :Train Loss
+Iter: 250, 0.6890 :Train Loss
+Iter: 300, 0.6529 :Train Loss
+Iter: 350, 0.9719 :Train Loss
+Iter: 400, 0.7078 :Train Loss
+Iter: 450, 0.7039 :Train Loss
+Epoch: 050, Train Loss: 0.6876, Valid Loss: 0.2304, Valid MAPE: 0.1183, Valid RMSE: 0.9808, Training Time: 459.2466/epoch
+Average Training Time: 461.5774 secs/epoch
+Average Inference Time: 57.0124 secs
+The valid loss on best model is 0.2277
+seed is 1689680871
+Evaluate best model on test data, Test rse: 0.1698, Test rae: 0.0802, Test corr: 0.9866
