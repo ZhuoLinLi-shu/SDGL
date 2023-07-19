@@ -20,7 +20,13 @@ Time series data https://github.com/laiguokun/multivariate-time-series-data
 
 ## Train Commands
 
-python train_pems.py --gcn_bool --addaptadj  --dataset
+For traffic datasets (PeMSD4, PeMSD8):
+
+python Pems4/train_pems.py --gcn_bool --addaptadj  --dataset
+
+For time series datasets:
+
+python Time_series/train_series.py --gcn_bool --addaptadj  --dataset
 
 ## Experimental result
 I have placed the prediction results of this model on the [website](https://github.com/ZhuoLinLi-shu/SDGL/releases/tag/v1.0)
