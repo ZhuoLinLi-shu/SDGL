@@ -44,7 +44,7 @@ parser.add_argument('--layers', type=int, default=3, help='number of layers')
 parser.add_argument('--column_wise', type=bool, default=False)
 parser.add_argument('--test_ratio', type=float, default=0.2)
 parser.add_argument('--val_ratio', type=float, default=0.2)
-# parser.add_argument('--lag', type=int, default=12, help='input time windows length')
+parser.add_argument('--lag', type=int, default=12, help='input time windows length')
 parser.add_argument('--horizon', type=int, default=12, help='predict window length')
 parser.add_argument('--dilation_exponential_', type=int, default=1)
 
